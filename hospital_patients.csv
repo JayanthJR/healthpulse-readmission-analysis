@@ -1,0 +1,1001 @@
+patient_id,age,gender,diagnosis,department,length_of_stay,prev_admissions,num_medications,comorbidities,insurance_type,discharge_disposition,readmitted_30d,admit_date,discharge_date,risk_score
+P0001,59,M,Sepsis,Pulmonology,1,2,11,5,Medicare,SNF,1,2023-02-17,2023-02-18,0.6225
+P0002,59,M,Diabetes,Neurology,4,1,12,5,Uninsured,Home,0,2023-01-04,2023-01-08,0.5325
+P0003,57,M,COPD,Pulmonology,15,0,2,3,Medicare,Home,0,2023-05-16,2023-05-31,0.0773
+P0004,48,M,Renal Failure,Neurology,1,3,2,4,Private,Home Health,0,2023-07-05,2023-07-06,0.343
+P0005,60,M,Diabetes,Endocrinology,21,3,14,0,Uninsured,Home,0,2023-07-06,2023-07-27,0.1638
+P0006,57,M,Hip Fracture,Endocrinology,1,0,15,5,Medicare,SNF,1,2023-05-06,2023-05-07,0.515
+P0007,49,M,Diabetes,Nephrology,1,2,1,1,Medicare,Home Health,0,2023-02-03,2023-02-04,0.1978
+P0008,64,F,Hip Fracture,Pulmonology,5,0,15,5,Uninsured,Home,1,2023-10-15,2023-10-20,0.5424
+P0009,61,M,Stroke,Endocrinology,1,4,9,3,Medicare,Home Health,0,2023-03-20,2023-03-21,0.5987
+P0010,45,M,Stroke,Neurology,1,0,8,4,Private,AMA,0,2023-01-06,2023-01-07,0.3752
+P0011,53,M,Sepsis,Nephrology,2,0,3,3,Medicare,AMA,0,2023-05-15,2023-05-17,0.3274
+P0012,43,M,Pneumonia,Nephrology,1,1,10,1,Medicaid,Home,1,2023-09-29,2023-09-30,0.2479
+P0013,46,M,Pneumonia,Endocrinology,10,2,5,1,Medicare,Home,0,2023-02-10,2023-02-20,0.112
+P0014,51,F,Renal Failure,Cardiology,19,1,3,1,Uninsured,Home Health,0,2023-09-28,2023-10-17,0.0507
+P0015,95,M,Diabetes,Nephrology,1,4,11,2,Uninsured,Home Health,1,2023-05-07,2023-05-08,0.8494
+P0016,53,M,Pneumonia,Endocrinology,1,1,10,1,Medicare,Home,0,2023-04-28,2023-04-29,0.3079
+P0017,88,F,Pneumonia,Neurology,1,1,4,4,Medicaid,SNF,0,2023-10-23,2023-10-24,0.5523
+P0018,44,M,Diabetes,Orthopedics,8,0,2,5,Uninsured,Home,0,2023-01-28,2023-02-05,0.1455
+P0019,85,F,Pneumonia,Pulmonology,1,1,3,3,Medicaid,Home,1,2023-02-08,2023-02-09,0.4725
+P0020,71,F,Pneumonia,Cardiology,5,1,1,0,Medicaid,Home,0,2023-04-20,2023-04-25,0.1765
+P0021,69,F,Heart Failure,Orthopedics,1,2,8,2,Uninsured,SNF,0,2023-10-12,2023-10-13,0.6011
+P0022,56,F,COPD,Pulmonology,1,4,10,5,Medicare,SNF,1,2023-10-27,2023-10-28,0.6964
+P0023,30,M,COPD,Cardiology,16,0,3,0,Medicare,SNF,0,2023-03-03,2023-03-19,0.0228
+P0024,61,M,Heart Failure,Neurology,1,1,10,4,Private,Home Health,1,2023-06-10,2023-06-11,0.52
+P0025,61,M,Sepsis,Orthopedics,1,2,2,0,Uninsured,SNF,0,2023-02-21,2023-02-22,0.3521
+P0026,70,F,Diabetes,Neurology,1,3,15,0,Medicaid,Home,1,2023-10-06,2023-10-07,0.6106
+P0027,25,M,Heart Failure,Nephrology,8,0,11,0,Medicaid,Home,0,2023-10-11,2023-10-19,0.078
+P0028,31,M,Sepsis,Endocrinology,4,2,4,5,Private,Home,0,2023-01-27,2023-01-31,0.2315
+P0029,42,M,Heart Failure,Cardiology,2,0,5,1,Uninsured,SNF,0,2023-01-05,2023-01-07,0.1994
+P0030,39,M,Pneumonia,Nephrology,11,1,14,2,Medicaid,Home,1,2023-07-06,2023-07-17,0.1468
+P0031,70,M,Diabetes,Nephrology,1,2,15,3,Medicaid,Home Health,1,2023-03-25,2023-03-26,0.657
+P0032,55,F,Stroke,Cardiology,1,3,13,3,Medicaid,Home,0,2023-02-25,2023-02-26,0.572
+P0033,83,F,Diabetes,Pulmonology,8,1,5,1,Medicaid,Home,1,2023-06-18,2023-06-26,0.267
+P0034,39,M,Pneumonia,Endocrinology,2,1,11,4,Private,Home Health,1,2023-05-14,2023-05-16,0.31
+P0035,21,M,Heart Failure,Cardiology,4,0,13,2,Uninsured,SNF,0,2023-07-17,2023-07-21,0.1931
+P0036,39,F,Sepsis,Cardiology,6,0,15,4,Medicaid,Home,1,2023-12-07,2023-12-13,0.2829
+P0037,45,M,Pneumonia,Nephrology,11,1,11,3,Private,Home,0,2023-03-07,2023-03-18,0.1584
+P0038,45,F,Stroke,Nephrology,14,1,15,1,Private,Home,0,2023-06-05,2023-06-19,0.1246
+P0039,68,F,Hip Fracture,Orthopedics,2,1,9,3,Medicaid,SNF,1,2023-12-06,2023-12-08,0.4403
+P0040,89,M,Pneumonia,Pulmonology,5,0,4,1,Medicare,Home,0,2023-11-09,2023-11-14,0.2973
+P0041,29,F,Diabetes,Nephrology,5,1,4,1,Medicare,Home Health,0,2023-02-24,2023-03-01,0.0824
+P0042,71,F,Diabetes,Pulmonology,8,1,8,0,Medicaid,Home Health,1,2023-03-10,2023-03-18,0.2176
+P0043,38,F,Hip Fracture,Orthopedics,4,2,9,3,Uninsured,Home Health,0,2023-09-01,2023-09-05,0.3122
+P0044,20,F,Sepsis,Pulmonology,9,0,13,4,Uninsured,SNF,0,2023-02-09,2023-02-18,0.1598
+P0045,63,F,Pneumonia,Pulmonology,1,0,3,5,Medicaid,Home,0,2023-10-05,2023-10-06,0.3274
+P0046,76,F,Stroke,Cardiology,1,1,15,4,Medicare,Home Health,0,2023-07-14,2023-07-15,0.6748
+P0047,76,M,Stroke,Orthopedics,3,2,13,4,Medicaid,Home,1,2023-09-06,2023-09-09,0.6502
+P0048,62,M,Stroke,Endocrinology,5,2,12,1,Uninsured,Home Health,0,2023-10-01,2023-10-06,0.4428
+P0049,79,F,Heart Failure,Cardiology,5,0,8,1,Medicare,Home,1,2023-08-21,2023-08-26,0.3452
+P0050,50,F,Hip Fracture,Orthopedics,1,4,7,2,Medicare,Home,0,2023-01-27,2023-01-28,0.4403
+P0051,62,M,Heart Failure,Cardiology,14,0,1,4,Medicaid,Home,0,2023-02-28,2023-03-14,0.1034
+P0052,67,M,Renal Failure,Nephrology,1,0,10,4,Medicare,Home Health,1,2023-06-09,2023-06-10,0.4526
+P0053,29,M,Stroke,Orthopedics,14,0,10,5,Medicaid,Home,0,2023-12-17,2023-12-31,0.0773
+P0054,44,M,Heart Failure,Endocrinology,3,1,2,4,Private,Home,0,2023-09-08,2023-09-11,0.2193
+P0055,48,F,Renal Failure,Nephrology,1,0,9,5,Private,SNF,0,2023-09-05,2023-09-06,0.334
+P0056,68,F,Stroke,Nephrology,4,0,4,0,Private,Home Health,0,2023-08-26,2023-08-30,0.1765
+P0057,52,M,Hip Fracture,Pulmonology,3,0,5,2,Private,Home Health,0,2023-05-22,2023-05-25,0.1765
+P0058,77,M,Diabetes,Cardiology,1,1,9,1,Uninsured,SNF,1,2023-01-09,2023-01-10,0.5325
+P0059,57,F,Diabetes,Endocrinology,5,0,9,4,Private,Home,0,2023-06-19,2023-06-24,0.2749
+P0060,77,M,Renal Failure,Endocrinology,1,0,12,1,Private,Home,0,2023-12-20,2023-12-21,0.4551
+P0061,71,M,Sepsis,Nephrology,4,2,10,2,Medicare,Home Health,1,2023-07-04,2023-07-08,0.5075
+P0062,86,M,Sepsis,Cardiology,6,0,1,0,Private,SNF,1,2023-09-09,2023-09-15,0.2244
+P0063,76,M,Renal Failure,Orthopedics,2,0,1,2,Uninsured,Home,1,2023-09-09,2023-09-11,0.323
+P0064,47,M,Heart Failure,Pulmonology,1,1,5,0,Medicaid,Home,0,2023-11-07,2023-11-08,0.2075
+P0065,64,M,Renal Failure,Endocrinology,9,4,5,4,Medicare,SNF,0,2023-04-17,2023-04-26,0.3823
+P0066,46,F,Sepsis,Nephrology,1,0,9,0,Medicaid,Home,0,2023-11-01,2023-11-02,0.2142
+P0067,59,M,Sepsis,Nephrology,9,0,4,2,Medicaid,Home,0,2023-11-28,2023-12-07,0.1406
+P0068,73,F,Sepsis,Pulmonology,1,0,5,4,Private,Home,0,2023-06-05,2023-06-06,0.4477
+P0069,79,M,Renal Failure,Orthopedics,1,0,7,5,Private,SNF,1,2023-04-28,2023-04-29,0.52
+P0070,55,F,Sepsis,Neurology,1,2,8,4,Uninsured,Home Health,1,2023-10-27,2023-10-28,0.572
+P0071,49,F,Pneumonia,Orthopedics,2,0,11,0,Medicaid,Home,0,2023-05-28,2023-05-30,0.2059
+P0072,48,M,Heart Failure,Orthopedics,1,0,2,3,Medicare,SNF,0,2023-07-31,2023-08-01,0.2059
+P0073,67,F,Renal Failure,Nephrology,2,0,5,4,Medicaid,Home Health,0,2023-12-24,2023-12-26,0.334
+P0074,76,M,Pneumonia,Cardiology,18,1,4,5,Medicaid,Home,1,2023-07-28,2023-08-15,0.1545
+P0075,66,F,Pneumonia,Orthopedics,14,1,3,3,Private,Home,0,2023-09-05,2023-09-19,0.1213
+P0076,92,F,Diabetes,Orthopedics,4,0,15,4,Medicaid,Home Health,1,2023-08-01,2023-08-05,0.6593
+P0077,79,F,Heart Failure,Endocrinology,6,2,10,5,Uninsured,Home Health,1,2023-09-05,2023-09-11,0.6942
+P0078,54,M,Hip Fracture,Neurology,7,0,15,2,Medicaid,AMA,1,2023-07-16,2023-07-23,0.3589
+P0079,72,F,Hip Fracture,Nephrology,3,3,7,3,Medicaid,Home,1,2023-09-15,2023-09-18,0.53
+P0080,49,M,Pneumonia,Orthopedics,1,3,1,5,Medicaid,Home,0,2023-03-21,2023-03-22,0.3659
+P0081,20,M,Hip Fracture,Neurology,5,1,14,2,Uninsured,AMA,0,2023-09-07,2023-09-12,0.2829
+P0082,70,M,Pneumonia,Pulmonology,4,3,4,5,Medicare,Home,1,2023-11-21,2023-11-25,0.505
+P0083,38,M,Heart Failure,Cardiology,1,0,6,2,Uninsured,Home,0,2023-10-17,2023-10-18,0.2351
+P0084,70,F,COPD,Pulmonology,1,3,10,5,Medicaid,Home,1,2023-04-29,2023-04-30,0.7311
+P0085,50,F,Heart Failure,Orthopedics,11,1,3,0,Uninsured,Home Health,0,2023-06-03,2023-06-14,0.1081
+P0086,48,F,Sepsis,Orthopedics,9,0,7,3,Medicare,Home,0,2023-10-22,2023-10-31,0.148
+P0087,75,M,Stroke,Endocrinology,1,3,13,5,Medicare,Home Health,1,2023-05-27,2023-05-28,0.7667
+P0088,61,M,Hip Fracture,Pulmonology,5,1,11,5,Medicaid,SNF,0,2023-11-27,2023-12-02,0.428
+P0089,55,F,Hip Fracture,Nephrology,1,3,6,5,Uninsured,Home,1,2023-10-04,2023-10-05,0.5818
+P0090,78,M,Sepsis,Pulmonology,1,2,8,2,Private,Home Health,1,2023-02-08,2023-02-09,0.5939
+P0091,62,F,Stroke,Neurology,2,2,1,2,Medicare,Home,0,2023-12-11,2023-12-13,0.2769
+P0092,50,M,Stroke,Nephrology,14,0,4,3,Medicare,SNF,0,2023-06-17,2023-07-01,0.0672
+P0093,48,M,Renal Failure,Nephrology,1,1,3,0,Medicare,Home,0,2023-02-19,2023-02-20,0.1584
+P0094,43,M,COPD,Orthopedics,3,1,12,5,Uninsured,SNF,0,2023-08-01,2023-08-04,0.4875
+P0095,73,F,Sepsis,Cardiology,5,0,8,1,Private,Home,0,2023-10-06,2023-10-11,0.3058
+P0096,42,M,Heart Failure,Orthopedics,1,4,14,3,Medicare,SNF,0,2023-11-02,2023-11-03,0.6059
+P0097,75,M,COPD,Neurology,1,2,9,1,Medicaid,Home Health,1,2023-03-17,2023-03-18,0.5548
+P0098,66,F,Sepsis,Pulmonology,21,1,13,1,Medicare,SNF,1,2023-01-08,2023-01-29,0.1213
+P0099,64,M,Hip Fracture,Cardiology,1,0,12,3,Medicare,SNF,0,2023-07-05,2023-07-06,0.4329
+P0100,50,F,Renal Failure,Neurology,1,1,12,5,Private,Home,0,2023-02-01,2023-02-02,0.4651
+P0101,71,F,Pneumonia,Orthopedics,6,1,15,0,Private,SNF,1,2023-05-21,2023-05-27,0.3729
+P0102,48,M,Stroke,Neurology,3,1,10,3,Medicare,Home Health,1,2023-12-02,2023-12-05,0.2973
+P0103,31,M,Stroke,Endocrinology,8,0,12,0,Private,Home,0,2023-07-11,2023-07-19,0.0824
+P0104,76,F,Renal Failure,Cardiology,1,0,7,0,Private,Home Health,0,2023-10-28,2023-10-29,0.3186
+P0105,54,F,Stroke,Nephrology,1,0,5,2,Medicare,SNF,1,2023-12-03,2023-12-04,0.2176
+P0106,47,M,Diabetes,Cardiology,2,1,2,2,Medicaid,Home Health,0,2023-11-15,2023-11-17,0.1708
+P0107,43,F,Sepsis,Cardiology,1,2,5,2,Private,Home,0,2023-10-17,2023-10-18,0.287
+P0108,47,F,Pneumonia,Pulmonology,6,4,2,5,Medicaid,Home,0,2023-03-22,2023-03-28,0.3143
+P0109,56,F,Pneumonia,Cardiology,1,2,1,5,Medicare,Home,0,2023-09-06,2023-09-07,0.3566
+P0110,75,F,Stroke,Endocrinology,1,1,6,3,Medicare,Home,0,2023-09-07,2023-09-08,0.4576
+P0111,77,F,Heart Failure,Cardiology,1,3,13,1,Private,Home,1,2023-09-12,2023-09-13,0.7006
+P0112,66,F,COPD,Pulmonology,2,2,9,4,Private,Home,0,2023-01-22,2023-01-24,0.5744
+P0113,95,M,Hip Fracture,Neurology,2,1,11,3,Private,Home,1,2023-06-16,2023-06-18,0.6748
+P0114,66,F,Renal Failure,Nephrology,12,0,14,0,Medicaid,Home,0,2023-02-10,2023-02-22,0.168
+P0115,80,M,Diabetes,Endocrinology,7,0,11,0,Medicaid,Home Health,0,2023-11-27,2023-12-04,0.285
+P0116,42,F,Diabetes,Cardiology,1,0,10,1,Medicare,Home,0,2023-09-10,2023-09-11,0.1994
+P0117,62,F,Renal Failure,Nephrology,12,1,11,4,Private,Home Health,0,2023-03-19,2023-03-31,0.2479
+P0118,34,F,Pneumonia,Orthopedics,2,0,5,4,Medicare,Home,1,2023-08-25,2023-08-27,0.1571
+P0119,76,F,Sepsis,Cardiology,5,4,2,4,Uninsured,Home,1,2023-01-22,2023-01-27,0.6318
+P0120,65,M,Diabetes,Endocrinology,4,1,1,3,Medicare,Home Health,0,2023-02-13,2023-02-17,0.2369
+P0121,86,M,Renal Failure,Neurology,3,0,6,2,Uninsured,Home,1,2023-11-03,2023-11-06,0.4651
+P0122,68,M,Hip Fracture,Cardiology,2,1,7,2,Private,SNF,0,2023-11-05,2023-11-07,0.3659
+P0123,51,F,COPD,Endocrinology,1,1,11,3,Medicaid,SNF,0,2023-06-08,2023-06-09,0.428
+P0124,80,M,Hip Fracture,Pulmonology,5,2,12,5,Medicare,SNF,1,2023-07-05,2023-07-10,0.6479
+P0125,55,M,Diabetes,Endocrinology,14,1,4,1,Medicaid,Home,0,2023-02-21,2023-03-07,0.0738
+P0126,69,M,Hip Fracture,Neurology,1,0,3,1,Medicaid,SNF,1,2023-07-06,2023-07-07,0.2423
+P0127,83,F,Renal Failure,Pulmonology,3,0,13,3,Medicaid,Home,0,2023-08-14,2023-08-17,0.5449
+P0128,57,F,Sepsis,Orthopedics,3,1,3,1,Medicaid,Home Health,1,2023-09-04,2023-09-07,0.2227
+P0129,54,F,Pneumonia,Endocrinology,1,0,8,4,Medicaid,Home Health,1,2023-04-24,2023-04-25,0.323
+P0130,59,F,Hip Fracture,Cardiology,2,0,6,1,Uninsured,AMA,1,2023-01-15,2023-01-17,0.3775
+P0131,89,M,Hip Fracture,Pulmonology,1,0,14,3,Medicaid,Home Health,1,2023-11-12,2023-11-13,0.6548
+P0132,49,M,Pneumonia,Cardiology,1,2,9,5,Uninsured,Home,1,2023-06-04,2023-06-05,0.5349
+P0133,77,F,Renal Failure,Cardiology,1,3,10,4,Medicare,SNF,1,2023-03-15,2023-03-16,0.7027
+P0134,66,M,Stroke,Cardiology,4,0,7,1,Medicare,Home,0,2023-09-27,2023-10-01,0.2297
+P0135,48,F,Stroke,Endocrinology,1,0,13,0,Private,Home,0,2023-02-23,2023-02-24,0.246
+P0136,73,M,COPD,Cardiology,2,0,11,1,Uninsured,AMA,1,2023-04-04,2023-04-06,0.6271
+P0137,87,F,Renal Failure,Cardiology,1,0,4,0,Private,Home Health,0,2023-10-06,2023-10-07,0.3385
+P0138,72,F,Sepsis,Cardiology,6,0,6,0,Private,Home,0,2023-08-12,2023-08-18,0.221
+P0139,60,F,Stroke,Endocrinology,18,1,8,2,Private,Home Health,0,2023-02-10,2023-02-28,0.0903
+P0140,28,M,COPD,Neurology,1,0,6,5,Private,Home,0,2023-08-07,2023-08-08,0.2092
+P0141,56,M,Heart Failure,Nephrology,10,0,7,2,Medicare,Home,0,2023-07-06,2023-07-16,0.1468
+P0142,48,F,Heart Failure,Pulmonology,9,1,8,0,Medicaid,Home,0,2023-07-07,2023-07-16,0.1335
+P0143,46,F,COPD,Nephrology,2,0,8,0,Medicaid,Home,0,2023-11-29,2023-12-01,0.1854
+P0144,75,M,Diabetes,Cardiology,1,0,9,3,Medicare,Home,1,2023-08-17,2023-08-18,0.4551
+P0145,75,F,Renal Failure,Pulmonology,1,3,8,1,Uninsured,AMA,0,2023-06-13,2023-06-14,0.7291
+P0146,61,M,Pneumonia,Neurology,3,3,14,1,Medicaid,Home Health,1,2023-03-04,2023-03-07,0.5125
+P0147,65,F,Renal Failure,Cardiology,2,1,8,4,Medicaid,SNF,1,2023-06-08,2023-06-10,0.4354
+P0148,50,F,Renal Failure,Neurology,2,1,10,0,Medicaid,AMA,0,2023-08-19,2023-08-21,0.343
+P0149,55,M,COPD,Pulmonology,2,3,1,0,Medicaid,Home,1,2023-12-30,2024-01-01,0.265
+P0150,48,M,Hip Fracture,Neurology,11,2,5,1,Private,Home,0,2023-10-01,2023-10-12,0.1081
+P0151,52,F,COPD,Pulmonology,5,2,10,2,Medicare,Home Health,1,2023-01-24,2023-01-29,0.3452
+P0152,61,F,Diabetes,Neurology,2,1,8,5,Private,SNF,1,2023-05-06,2023-05-08,0.4428
+P0153,60,F,Heart Failure,Pulmonology,2,1,4,2,Medicaid,Home,0,2023-06-26,2023-06-28,0.3036
+P0154,67,M,COPD,Endocrinology,3,0,4,3,Medicare,Home,1,2023-02-19,2023-02-22,0.3058
+P0155,58,F,Stroke,Pulmonology,16,3,14,2,Private,Home,1,2023-09-21,2023-10-07,0.2333
+P0156,77,M,Renal Failure,Endocrinology,3,0,7,4,Uninsured,AMA,1,2023-06-30,2023-07-03,0.6154
+P0157,79,M,Renal Failure,Endocrinology,3,2,7,1,Private,SNF,0,2023-07-07,2023-07-10,0.4452
+P0158,67,F,Stroke,Cardiology,4,0,9,2,Medicare,Home,0,2023-10-09,2023-10-13,0.2953
+P0159,72,F,Pneumonia,Pulmonology,18,0,13,2,Private,Home Health,0,2023-09-18,2023-10-06,0.1419
+P0160,42,F,Heart Failure,Cardiology,1,2,13,3,Uninsured,Home,0,2023-03-13,2023-03-14,0.5374
+P0161,74,F,Stroke,Neurology,6,0,6,4,Uninsured,SNF,1,2023-01-09,2023-01-15,0.3775
+P0162,56,M,Hip Fracture,Nephrology,1,1,5,5,Medicare,SNF,1,2023-12-02,2023-12-03,0.3729
+P0163,58,M,COPD,Neurology,4,1,14,3,Medicaid,Home Health,1,2023-10-21,2023-10-25,0.4651
+P0164,41,M,Diabetes,Cardiology,2,1,7,5,Medicaid,Home,0,2023-08-30,2023-09-01,0.287
+P0165,56,F,Hip Fracture,Nephrology,3,0,3,3,Private,Home,0,2023-12-15,2023-12-18,0.1931
+P0166,43,F,Renal Failure,Pulmonology,15,0,5,1,Private,Home Health,0,2023-12-20,2024-01-04,0.0407
+P0167,55,M,Sepsis,Endocrinology,1,1,7,3,Private,AMA,0,2023-05-29,2023-05-30,0.5025
+P0168,75,F,Sepsis,Nephrology,1,3,11,2,Uninsured,Home,0,2023-05-19,2023-05-20,0.7465
+P0169,76,M,Diabetes,Pulmonology,1,3,4,5,Medicaid,Home,1,2023-08-30,2023-08-31,0.6225
+P0170,78,F,COPD,Cardiology,16,4,3,3,Uninsured,Home,1,2023-05-28,2023-06-13,0.3612
+P0171,60,F,Pneumonia,Nephrology,4,1,12,0,Medicaid,Home,0,2023-01-19,2023-01-23,0.2911
+P0172,67,F,Renal Failure,Pulmonology,13,4,15,2,Medicare,Home,0,2023-02-24,2023-03-09,0.428
+P0173,51,M,Renal Failure,Pulmonology,9,1,4,0,Private,Home,0,2023-05-12,2023-05-21,0.0911
+P0174,95,F,Heart Failure,Nephrology,2,0,11,1,Medicaid,SNF,0,2023-07-27,2023-07-29,0.5939
+P0175,55,F,Pneumonia,Pulmonology,20,1,15,1,Medicare,Home,0,2023-05-17,2023-06-06,0.0953
+P0176,61,M,Sepsis,Neurology,6,0,11,2,Medicaid,Home,1,2023-06-07,2023-06-13,0.2911
+P0177,46,F,Sepsis,Nephrology,1,3,5,2,Medicaid,Home,1,2023-03-20,2023-03-21,0.3612
+P0178,72,M,Hip Fracture,Orthopedics,6,3,13,4,Medicaid,Home Health,0,2023-11-02,2023-11-08,0.6106
+P0179,42,F,Hip Fracture,Cardiology,12,0,14,4,Medicaid,SNF,1,2023-06-17,2023-06-29,0.1519
+P0180,58,F,Pneumonia,Nephrology,1,1,2,4,Uninsured,Home Health,0,2023-09-20,2023-09-21,0.3659
+P0181,56,F,Renal Failure,Nephrology,8,2,7,2,Medicare,SNF,0,2023-01-24,2023-02-01,0.221
+P0182,63,F,Hip Fracture,Nephrology,1,4,15,0,Uninsured,Home,1,2023-03-11,2023-03-12,0.6878
+P0183,38,F,Renal Failure,Orthopedics,2,1,11,4,Medicaid,SNF,0,2023-04-02,2023-04-04,0.3036
+P0184,85,F,COPD,Nephrology,19,2,13,0,Private,Home,0,2023-08-06,2023-08-25,0.2479
+P0185,67,M,Hip Fracture,Pulmonology,1,3,12,0,Medicare,Home Health,1,2023-01-09,2023-01-10,0.53
+P0186,51,M,Diabetes,Cardiology,1,0,10,5,Medicare,Home,1,2023-08-13,2023-08-14,0.3729
+P0187,36,M,Heart Failure,Pulmonology,3,0,14,5,Private,SNF,0,2023-06-14,2023-06-17,0.343
+P0188,55,F,Sepsis,Pulmonology,21,1,7,2,Private,Home,0,2023-03-31,2023-04-21,0.0666
+P0189,57,F,Hip Fracture,Nephrology,5,2,6,5,Uninsured,Home,1,2023-04-05,2023-04-10,0.4354
+P0190,60,M,Diabetes,Pulmonology,1,2,13,3,Medicare,SNF,0,2023-10-13,2023-10-14,0.5474
+P0191,52,M,Hip Fracture,Nephrology,1,1,6,0,Medicaid,Home,0,2023-11-06,2023-11-07,0.2125
+P0192,69,F,Pneumonia,Pulmonology,8,1,11,4,Medicaid,Home,0,2023-06-20,2023-06-28,0.3775
+P0193,64,F,Diabetes,Nephrology,1,4,8,1,Medicaid,Home,1,2023-06-14,2023-06-15,0.5275
+P0194,61,F,Stroke,Orthopedics,3,0,5,2,Uninsured,Home,0,2023-08-29,2023-09-01,0.2749
+P0195,75,F,Stroke,Cardiology,4,0,3,0,Private,SNF,0,2023-08-02,2023-08-06,0.1962
+P0196,54,F,COPD,Pulmonology,2,0,14,1,Uninsured,SNF,0,2023-06-22,2023-06-24,0.4231
+P0197,63,M,Renal Failure,Orthopedics,1,2,3,1,Uninsured,Home,0,2023-11-25,2023-11-26,0.3729
+P0198,43,M,Heart Failure,Cardiology,14,1,13,0,Uninsured,Home,0,2023-02-04,2023-02-18,0.1394
+P0199,80,M,Hip Fracture,Cardiology,4,1,10,3,Uninsured,Home,1,2023-07-30,2023-08-03,0.5744
+P0200,63,M,Heart Failure,Neurology,6,1,5,0,Uninsured,Home Health,0,2023-02-24,2023-03-02,0.2573
+P0201,50,F,Sepsis,Endocrinology,1,0,6,3,Uninsured,SNF,0,2023-04-26,2023-04-27,0.3385
+P0202,60,M,Pneumonia,Nephrology,23,1,1,0,Uninsured,Home,0,2023-01-29,2023-02-21,0.0332
+P0203,60,F,Stroke,Nephrology,7,1,14,0,Medicare,Home,0,2023-12-21,2023-12-28,0.2631
+P0204,55,M,Sepsis,Cardiology,12,1,5,4,Medicare,Home,0,2023-01-09,2023-01-21,0.168
+P0205,39,M,Stroke,Cardiology,1,1,10,3,Private,Home,0,2023-12-19,2023-12-20,0.2829
+P0206,48,F,Hip Fracture,Cardiology,1,0,2,2,Uninsured,AMA,0,2023-11-21,2023-11-22,0.2891
+P0207,65,M,Diabetes,Endocrinology,4,0,3,5,Uninsured,Home,0,2023-05-07,2023-05-11,0.3407
+P0208,44,F,Pneumonia,Endocrinology,1,2,11,1,Uninsured,Home,1,2023-01-03,2023-01-04,0.3894
+P0209,36,M,Pneumonia,Pulmonology,1,1,9,4,Uninsured,Home,1,2023-10-11,2023-10-12,0.343
+P0210,71,M,Hip Fracture,Orthopedics,1,1,13,0,Medicaid,SNF,1,2023-07-14,2023-07-15,0.4551
+P0211,70,F,Renal Failure,Pulmonology,1,1,7,2,Uninsured,Home Health,1,2023-05-07,2023-05-08,0.4775
+P0212,72,F,Diabetes,Orthopedics,1,0,7,2,Uninsured,Home Health,1,2023-06-21,2023-06-22,0.4305
+P0213,74,F,COPD,Endocrinology,1,3,4,3,Private,Home,1,2023-06-13,2023-06-14,0.5842
+P0214,32,M,Renal Failure,Neurology,7,0,5,3,Private,Home,0,2023-10-31,2023-11-07,0.0839
+P0215,53,F,Renal Failure,Nephrology,1,2,14,5,Medicare,Home Health,0,2023-07-29,2023-07-30,0.589
+P0216,43,F,COPD,Nephrology,1,0,3,5,Uninsured,Home Health,1,2023-11-03,2023-11-04,0.3058
+P0217,44,F,Stroke,Neurology,1,4,12,4,Medicare,Home,1,2023-12-07,2023-12-08,0.5695
+P0218,52,M,COPD,Nephrology,4,1,11,5,Uninsured,AMA,1,2023-08-09,2023-08-13,0.6318
+P0219,74,F,Diabetes,Orthopedics,2,1,11,4,Medicaid,Home,1,2023-02-23,2023-02-25,0.5622
+P0220,62,F,Stroke,Cardiology,1,3,3,2,Private,Home,0,2023-09-24,2023-09-25,0.3894
+P0221,57,M,Renal Failure,Endocrinology,1,0,12,0,Medicare,Home Health,0,2023-12-13,2023-12-14,0.2829
+P0222,67,M,Diabetes,Neurology,1,0,9,3,Uninsured,Home,1,2023-04-05,2023-04-06,0.47
+P0223,51,M,Heart Failure,Nephrology,4,0,10,3,Uninsured,Home,1,2023-05-23,2023-05-27,0.3498
+P0224,48,F,Pneumonia,Neurology,1,0,8,0,Private,SNF,0,2023-11-24,2023-11-25,0.1795
+P0225,43,M,Pneumonia,Endocrinology,2,1,3,5,Private,Home Health,0,2023-12-11,2023-12-13,0.2369
+P0226,49,F,Hip Fracture,Cardiology,1,0,6,5,Medicaid,Home,0,2023-03-12,2023-03-13,0.2891
+P0227,45,F,COPD,Neurology,1,0,3,2,Uninsured,SNF,0,2023-01-05,2023-01-06,0.2297
+P0228,70,F,COPD,Pulmonology,8,4,9,5,Uninsured,Home,1,2023-12-30,2024-01-07,0.6835
+P0229,55,M,Heart Failure,Pulmonology,1,0,9,2,Medicaid,Home Health,0,2023-09-11,2023-09-12,0.3252
+P0230,62,F,Pneumonia,Endocrinology,7,2,6,4,Medicare,Home Health,0,2023-04-22,2023-04-29,0.3186
+P0231,86,M,Diabetes,Endocrinology,10,0,5,2,Medicare,Home,0,2023-05-02,2023-05-12,0.2279
+P0232,80,F,Hip Fracture,Nephrology,4,1,10,1,Medicaid,Home Health,0,2023-10-19,2023-10-23,0.4256
+P0233,40,M,COPD,Endocrinology,19,0,10,2,Medicare,Home,0,2023-07-30,2023-08-18,0.0522
+P0234,57,F,Sepsis,Nephrology,1,3,4,1,Private,Home Health,0,2023-12-13,2023-12-14,0.3846
+P0235,41,F,Sepsis,Nephrology,2,1,11,0,Uninsured,Home,1,2023-07-08,2023-07-10,0.3015
+P0236,63,F,Renal Failure,Endocrinology,4,3,14,5,Medicare,SNF,1,2023-12-07,2023-12-11,0.6479
+P0237,78,M,Stroke,Pulmonology,17,2,8,2,Private,Home Health,0,2023-10-23,2023-11-09,0.1947
+P0238,38,F,Renal Failure,Endocrinology,11,2,1,0,Uninsured,Home,0,2023-03-22,2023-04-02,0.0704
+P0239,18,M,Stroke,Pulmonology,27,3,15,5,Private,Home,0,2023-05-21,2023-06-17,0.0493
+P0240,75,M,Hip Fracture,Endocrinology,1,1,11,1,Medicare,Home,1,2023-12-25,2023-12-26,0.4825
+P0241,55,F,Pneumonia,Cardiology,1,0,10,1,Uninsured,Home,0,2023-03-03,2023-03-04,0.3318
+P0242,65,F,COPD,Orthopedics,1,0,12,0,Medicare,Home,0,2023-03-12,2023-03-13,0.3799
+P0243,65,M,COPD,Nephrology,24,0,9,4,Medicare,SNF,0,2023-06-29,2023-07-23,0.0809
+P0244,35,F,COPD,Orthopedics,4,1,4,0,Medicare,Home,0,2023-07-16,2023-07-20,0.1111
+P0245,75,F,COPD,Pulmonology,1,0,9,4,Private,Home Health,0,2023-12-04,2023-12-05,0.5424
+P0246,58,F,Diabetes,Neurology,4,0,7,2,Medicare,Home Health,0,2023-05-03,2023-05-07,0.2142
+P0247,53,F,Pneumonia,Neurology,10,0,6,2,Medicaid,Home,0,2023-08-04,2023-08-14,0.1062
+P0248,69,F,COPD,Orthopedics,15,2,1,4,Medicare,Home,0,2023-01-31,2023-02-15,0.1751
+P0249,39,M,Stroke,Orthopedics,6,0,9,4,Medicaid,Home,0,2023-09-19,2023-09-25,0.1666
+P0250,61,M,COPD,Neurology,1,1,13,5,Medicare,Home,1,2023-05-03,2023-05-04,0.6154
+P0251,63,M,Pneumonia,Orthopedics,4,0,11,5,Medicaid,Home,0,2023-12-26,2023-12-30,0.4061
+P0252,95,M,COPD,Orthopedics,15,1,13,5,Private,Home,1,2023-05-18,2023-06-02,0.5225
+P0253,62,F,Stroke,Endocrinology,3,0,10,5,Medicare,Home,0,2023-01-29,2023-02-01,0.4037
+P0254,58,M,COPD,Endocrinology,1,2,15,4,Medicare,Home,1,2023-01-23,2023-01-24,0.6548
+P0255,62,F,Stroke,Pulmonology,1,4,1,4,Uninsured,Home,1,2023-06-13,2023-06-14,0.5597
+P0256,80,F,Pneumonia,Neurology,2,1,15,0,Medicaid,Home,1,2023-01-24,2023-01-26,0.5374
+P0257,78,M,Sepsis,Endocrinology,1,1,1,2,Medicaid,Home,0,2023-11-15,2023-11-16,0.3941
+P0258,69,M,Renal Failure,Endocrinology,4,1,13,1,Medicaid,Home,0,2023-01-13,2023-01-17,0.4037
+P0259,40,F,Heart Failure,Endocrinology,1,1,14,5,Private,Home,0,2023-05-02,2023-05-03,0.48
+P0260,56,F,Renal Failure,Cardiology,17,0,5,0,Medicare,Home Health,0,2023-09-24,2023-10-11,0.0423
+P0261,57,M,Pneumonia,Neurology,1,0,14,3,Medicare,SNF,1,2023-12-06,2023-12-07,0.4207
+P0262,47,M,Diabetes,Endocrinology,1,0,13,3,Private,Home,1,2023-02-08,2023-02-09,0.3318
+P0263,80,F,Pneumonia,Pulmonology,1,1,6,3,Medicare,Home,0,2023-04-17,2023-04-18,0.495
+P0264,82,M,Sepsis,Orthopedics,1,0,3,5,Private,Home Health,0,2023-01-21,2023-01-22,0.5125
+P0265,69,F,Pneumonia,Nephrology,1,0,9,0,Private,Home,0,2023-01-16,2023-01-17,0.3079
+P0266,49,M,Renal Failure,Neurology,6,0,8,0,Medicaid,Home,1,2023-04-24,2023-04-30,0.1203
+P0267,67,M,Pneumonia,Neurology,4,3,2,0,Medicare,Home,0,2023-03-07,2023-03-11,0.2729
+P0268,77,F,Hip Fracture,Cardiology,1,1,3,4,Uninsured,Home Health,1,2023-01-16,2023-01-17,0.525
+P0269,57,F,Diabetes,Pulmonology,1,1,3,0,Medicaid,SNF,0,2023-10-09,2023-10-10,0.1978
+P0270,52,F,Heart Failure,Cardiology,1,0,4,5,Medicaid,SNF,0,2023-01-10,2023-01-11,0.3165
+P0271,65,F,Renal Failure,Endocrinology,12,1,7,2,Medicaid,Home,0,2023-01-16,2023-01-28,0.1625
+P0272,47,M,Heart Failure,Orthopedics,3,2,4,1,Medicare,Home,0,2023-10-01,2023-10-04,0.2279
+P0273,65,F,Stroke,Endocrinology,13,4,3,1,Medicaid,SNF,0,2023-12-24,2024-01-06,0.1885
+P0274,23,F,Heart Failure,Nephrology,6,3,10,1,Medicaid,Home Health,0,2023-09-10,2023-09-16,0.1809
+P0275,64,F,Heart Failure,Pulmonology,4,0,8,0,Private,Home Health,1,2023-03-08,2023-03-12,0.2423
+P0276,65,F,COPD,Endocrinology,1,0,12,1,Medicare,Home Health,0,2023-02-07,2023-02-08,0.4158
+P0277,55,F,Pneumonia,Endocrinology,1,0,3,5,Uninsured,Home Health,0,2023-11-29,2023-11-30,0.3407
+P0278,39,F,COPD,Nephrology,17,1,15,4,Private,Home,0,2023-03-31,2023-04-17,0.1443
+P0279,53,M,COPD,Pulmonology,6,3,10,3,Medicare,Home,1,2023-11-10,2023-11-16,0.4231
+P0280,84,F,Pneumonia,Orthopedics,1,2,4,2,Private,Home,0,2023-02-15,2023-02-16,0.51
+P0281,50,M,Diabetes,Nephrology,1,0,2,5,Medicare,Home,0,2023-08-03,2023-08-04,0.2333
+P0282,66,M,Stroke,Orthopedics,10,0,7,0,Uninsured,Home Health,0,2023-12-18,2023-12-28,0.1598
+P0283,65,M,Heart Failure,Endocrinology,1,0,2,0,Private,Home,0,2023-02-08,2023-02-09,0.2159
+P0284,67,M,Hip Fracture,Neurology,21,3,12,0,Uninsured,Home Health,1,2023-08-11,2023-09-01,0.1708
+P0285,75,M,Diabetes,Orthopedics,5,2,12,4,Private,SNF,1,2023-02-19,2023-02-24,0.5769
+P0286,66,F,Stroke,Neurology,3,1,1,2,Medicare,Home,0,2023-12-05,2023-12-08,0.2333
+P0287,63,F,COPD,Nephrology,1,0,14,0,Private,Home Health,0,2023-12-05,2023-12-06,0.4037
+P0288,65,F,Pneumonia,Nephrology,3,0,15,3,Private,Home,1,2023-08-14,2023-08-17,0.4502
+P0289,59,M,Heart Failure,Pulmonology,6,1,2,5,Private,Home Health,0,2023-10-29,2023-11-04,0.2749
+P0290,92,M,Heart Failure,Orthopedics,8,1,9,5,Uninsured,SNF,1,2023-06-03,2023-06-11,0.6637
+P0291,37,M,Heart Failure,Neurology,4,1,10,5,Medicaid,Home,0,2023-03-30,2023-04-03,0.3122
+P0292,81,F,Diabetes,Pulmonology,1,1,11,3,Medicaid,AMA,1,2023-11-01,2023-11-02,0.713
+P0293,51,F,Pneumonia,Cardiology,2,0,6,2,Uninsured,Home Health,1,2023-12-25,2023-12-27,0.2516
+P0294,85,F,Pneumonia,Orthopedics,1,1,10,0,Medicare,SNF,1,2023-05-27,2023-05-28,0.5
+P0295,71,M,Renal Failure,Neurology,4,0,5,3,Medicaid,SNF,0,2023-07-25,2023-07-29,0.285
+P0296,53,F,Stroke,Endocrinology,5,0,8,2,Private,Home,0,2023-06-05,2023-06-10,0.1869
+P0297,58,M,Pneumonia,Pulmonology,1,4,8,2,Private,SNF,0,2023-02-15,2023-02-16,0.52
+P0298,80,M,Renal Failure,Pulmonology,12,1,8,4,Private,Home Health,0,2023-03-23,2023-04-04,0.3079
+P0299,54,M,COPD,Neurology,10,0,4,1,Medicare,Home,0,2023-07-04,2023-07-14,0.0989
+P0300,79,M,Sepsis,Endocrinology,8,1,11,0,Medicare,Home,0,2023-08-17,2023-08-25,0.3543
+P0301,79,M,Hip Fracture,Endocrinology,1,3,12,5,Medicare,Home,1,2023-03-25,2023-03-26,0.7738
+P0302,57,M,Diabetes,Nephrology,1,0,11,3,Medicare,Home Health,0,2023-12-16,2023-12-17,0.3635
+P0303,53,F,COPD,Neurology,8,0,10,2,Private,Home,0,2023-06-28,2023-07-06,0.1962
+P0304,63,F,Sepsis,Pulmonology,3,1,14,4,Uninsured,SNF,1,2023-12-06,2023-12-09,0.6365
+P0305,42,F,Sepsis,Endocrinology,5,1,6,2,Private,Home Health,0,2023-12-31,2024-01-05,0.1809
+P0306,53,F,Diabetes,Pulmonology,3,0,1,4,Uninsured,SNF,0,2023-01-14,2023-01-17,0.2262
+P0307,74,F,Stroke,Orthopedics,2,0,12,4,Medicaid,Home,0,2023-12-18,2023-12-20,0.52
+P0308,61,M,Hip Fracture,Neurology,1,0,11,4,Medicaid,Home,0,2023-05-13,2023-05-14,0.428
+P0309,94,M,Pneumonia,Pulmonology,2,2,5,3,Private,Home,1,2023-08-26,2023-08-28,0.6154
+P0310,50,F,Renal Failure,Cardiology,10,1,10,0,Uninsured,Home Health,0,2023-12-15,2023-12-25,0.1611
+P0311,45,F,COPD,Pulmonology,24,0,10,3,Medicaid,Home,0,2023-02-11,2023-03-07,0.0431
+P0312,58,M,Hip Fracture,Nephrology,21,0,1,0,Uninsured,Home,0,2023-03-28,2023-04-18,0.0299
+P0313,34,F,Pneumonia,Pulmonology,4,1,7,3,Uninsured,Home,1,2023-04-13,2023-04-17,0.2108
+P0314,63,F,Heart Failure,Endocrinology,7,1,1,5,Medicare,SNF,1,2023-12-22,2023-12-29,0.2631
+P0315,59,F,Sepsis,Pulmonology,1,0,5,3,Private,Home,0,2023-03-10,2023-03-11,0.3143
+P0316,68,M,Renal Failure,Endocrinology,6,0,15,3,Medicare,Home,0,2023-03-09,2023-03-15,0.3989
+P0317,59,M,COPD,Cardiology,2,1,1,3,Private,Home Health,0,2023-11-01,2023-11-03,0.2789
+P0318,40,M,Pneumonia,Nephrology,9,0,2,3,Uninsured,Home,0,2023-08-31,2023-09-09,0.092
+P0319,68,M,Heart Failure,Endocrinology,2,0,9,2,Medicaid,Home,0,2023-09-19,2023-09-21,0.3917
+P0320,85,F,Sepsis,Cardiology,7,1,10,1,Private,Home Health,0,2023-07-03,2023-07-10,0.4378
+P0321,60,F,Renal Failure,Pulmonology,5,1,4,0,Medicare,SNF,0,2023-10-21,2023-10-26,0.1638
+P0322,66,F,COPD,Cardiology,7,0,12,0,Private,SNF,0,2023-06-01,2023-06-08,0.2573
+P0323,54,M,COPD,Cardiology,9,0,11,2,Uninsured,SNF,1,2023-01-24,2023-02-02,0.2497
+P0324,63,M,COPD,Nephrology,5,0,15,3,Private,Home Health,1,2023-06-25,2023-06-30,0.4354
+P0325,74,M,Renal Failure,Endocrinology,9,1,8,3,Medicaid,Home,0,2023-01-31,2023-02-09,0.3015
+P0326,72,M,Pneumonia,Orthopedics,12,1,10,5,Uninsured,Home,1,2023-07-03,2023-07-15,0.3917
+P0327,83,M,COPD,Orthopedics,12,0,7,3,Medicare,Home,0,2023-01-07,2023-01-19,0.2689
+P0328,36,F,Hip Fracture,Neurology,3,2,2,3,Medicaid,Home,0,2023-11-25,2023-11-28,0.1666
+P0329,79,F,Heart Failure,Cardiology,5,0,14,3,Uninsured,Home Health,1,2023-09-09,2023-09-14,0.6083
+P0330,86,F,Diabetes,Endocrinology,17,0,4,4,Uninsured,Home,0,2023-08-24,2023-09-10,0.1978
+P0331,67,M,Renal Failure,Orthopedics,1,4,12,5,Medicare,Home,1,2023-10-13,2023-10-14,0.754
+P0332,45,F,Pneumonia,Neurology,16,1,15,4,Medicaid,SNF,0,2023-06-24,2023-07-10,0.1545
+P0333,75,M,Renal Failure,Endocrinology,4,1,8,5,Private,SNF,1,2023-12-04,2023-12-08,0.4975
+P0334,35,F,Heart Failure,Endocrinology,2,1,13,2,Private,SNF,1,2023-03-26,2023-03-28,0.2973
+P0335,78,M,Stroke,Cardiology,1,0,2,3,Medicaid,Home,0,2023-06-23,2023-06-24,0.343
+P0336,81,M,Stroke,Cardiology,13,2,10,0,Uninsured,Home,0,2023-09-16,2023-09-29,0.3165
+P0337,63,M,Heart Failure,Neurology,13,2,8,4,Medicaid,SNF,1,2023-03-07,2023-03-20,0.2749
+P0338,61,F,Stroke,Nephrology,4,3,9,3,Uninsured,AMA,0,2023-05-08,2023-05-12,0.657
+P0339,50,M,Sepsis,Orthopedics,8,0,10,5,Private,Home Health,0,2023-06-10,2023-06-18,0.2592
+P0340,70,F,Diabetes,Pulmonology,4,0,6,5,Medicaid,AMA,0,2023-04-02,2023-04-06,0.4825
+P0341,55,M,Renal Failure,Neurology,4,1,7,5,Private,Home Health,0,2023-01-07,2023-01-11,0.334
+P0342,35,M,Heart Failure,Orthopedics,1,1,4,2,Medicaid,AMA,0,2023-03-16,2023-03-17,0.2729
+P0343,57,F,Heart Failure,Endocrinology,8,0,14,5,Medicaid,SNF,0,2023-05-02,2023-05-10,0.3729
+P0344,49,F,Heart Failure,Orthopedics,2,4,11,2,Medicare,Home,1,2023-11-14,2023-11-16,0.5374
+P0345,78,M,Hip Fracture,Neurology,3,1,13,5,Medicaid,Home,1,2023-12-16,2023-12-19,0.6411
+P0346,31,F,COPD,Pulmonology,6,0,1,3,Private,SNF,0,2023-10-27,2023-11-02,0.0802
+P0347,79,M,COPD,Cardiology,1,0,1,5,Private,Home,0,2023-07-03,2023-07-04,0.4502
+P0348,62,F,Hip Fracture,Neurology,1,0,2,4,Medicaid,Home,0,2023-02-17,2023-02-18,0.2729
+P0349,63,M,Hip Fracture,Endocrinology,2,0,13,4,Uninsured,AMA,0,2023-11-29,2023-12-01,0.6525
+P0350,72,F,Pneumonia,Nephrology,2,0,11,4,Medicaid,AMA,0,2023-06-14,2023-06-16,0.6083
+P0351,95,M,Stroke,Endocrinology,3,0,15,4,Private,Home,1,2023-09-07,2023-09-10,0.7006
+P0352,42,M,Sepsis,Nephrology,1,1,2,1,Medicare,SNF,0,2023-11-19,2023-11-20,0.1708
+P0353,73,F,Pneumonia,Pulmonology,3,2,12,3,Medicare,SNF,1,2023-08-24,2023-08-27,0.5744
+P0354,49,F,Heart Failure,Cardiology,1,0,5,4,Medicare,SNF,1,2023-05-13,2023-05-14,0.2829
+P0355,44,M,Stroke,Endocrinology,1,1,9,0,Medicare,Home Health,0,2023-12-25,2023-12-26,0.2125
+P0356,76,F,Hip Fracture,Neurology,1,2,5,4,Medicare,Home,0,2023-07-15,2023-07-16,0.5449
+P0357,63,F,COPD,Neurology,1,2,13,4,Private,AMA,1,2023-12-13,2023-12-14,0.7558
+P0358,58,M,Heart Failure,Neurology,10,0,1,0,Uninsured,Home,0,2023-06-06,2023-06-16,0.1016
+P0359,61,M,Hip Fracture,Pulmonology,2,1,9,1,Medicaid,Home,0,2023-05-10,2023-05-12,0.3208
+P0360,27,M,Pneumonia,Pulmonology,5,1,1,4,Uninsured,SNF,1,2023-12-10,2023-12-15,0.1235
+P0361,61,F,Renal Failure,Endocrinology,2,1,4,0,Private,SNF,0,2023-06-12,2023-06-14,0.2142
+P0362,72,M,Renal Failure,Endocrinology,4,0,10,1,Private,Home Health,0,2023-03-28,2023-04-01,0.3122
+P0363,51,F,Stroke,Endocrinology,9,0,12,2,Uninsured,Home,0,2023-06-06,2023-06-15,0.2125
+P0364,87,M,Pneumonia,Pulmonology,5,0,5,1,Medicaid,Home,0,2023-02-09,2023-02-14,0.3015
+P0365,86,M,Heart Failure,Neurology,4,2,4,0,Private,Home,0,2023-08-30,2023-09-03,0.4256
+P0366,42,F,Hip Fracture,Orthopedics,1,2,12,2,Medicaid,Home,0,2023-07-23,2023-07-24,0.3589
+P0367,38,M,COPD,Neurology,1,0,10,4,Medicaid,SNF,0,2023-07-03,2023-07-04,0.2973
+P0368,61,F,Diabetes,Orthopedics,1,0,4,0,Medicaid,Home,0,2023-07-18,2023-07-19,0.19
+P0369,90,M,Heart Failure,Nephrology,1,2,9,5,Private,Home Health,1,2023-10-06,2023-10-07,0.7807
+P0370,45,F,Stroke,Nephrology,2,1,15,0,Private,Home,0,2023-09-22,2023-09-24,0.2891
+P0371,42,F,Renal Failure,Orthopedics,10,0,15,1,Uninsured,Home,1,2023-11-26,2023-12-06,0.1694
+P0372,87,F,Diabetes,Pulmonology,1,0,12,0,Medicaid,Home,1,2023-02-28,2023-03-01,0.4925
+P0373,53,M,COPD,Nephrology,8,0,1,1,Medicaid,Home,0,2023-10-21,2023-10-29,0.0928
+P0374,45,M,Heart Failure,Pulmonology,1,0,7,4,Medicare,Home Health,0,2023-05-26,2023-05-27,0.2911
+P0375,66,F,Renal Failure,Orthopedics,1,2,10,1,Medicaid,SNF,0,2023-03-27,2023-03-28,0.4576
+P0376,83,F,Renal Failure,Neurology,4,0,7,1,Medicare,Home,0,2023-09-16,2023-09-20,0.3318
+P0377,72,M,COPD,Orthopedics,11,1,15,4,Medicare,Home,0,2023-11-05,2023-11-16,0.4526
+P0378,42,F,Stroke,Neurology,2,3,12,4,Uninsured,Home,0,2023-07-15,2023-07-17,0.5424
+P0379,39,M,Pneumonia,Orthopedics,1,1,4,0,Private,SNF,0,2023-05-12,2023-05-13,0.1347
+P0380,48,F,Heart Failure,Nephrology,6,0,9,0,Medicare,Home,0,2023-06-11,2023-06-17,0.1493
+P0381,55,F,Sepsis,Endocrinology,9,1,6,4,Private,AMA,0,2023-04-15,2023-04-24,0.3274
+P0382,69,M,Renal Failure,Pulmonology,2,1,5,2,Private,Home Health,0,2023-03-12,2023-03-14,0.3363
+P0383,61,M,COPD,Cardiology,1,1,6,4,Medicare,Home,0,2023-01-03,2023-01-04,0.4403
+P0384,44,F,COPD,Orthopedics,13,1,2,2,Medicaid,Home,0,2023-07-16,2023-07-29,0.0711
+P0385,47,M,Heart Failure,Pulmonology,5,1,4,5,Private,Home,0,2023-09-19,2023-09-24,0.2554
+P0386,49,F,COPD,Nephrology,1,0,1,1,Medicare,AMA,0,2023-06-30,2023-07-01,0.2315
+P0387,53,M,Heart Failure,Nephrology,6,3,9,2,Private,Home,0,2023-04-26,2023-05-02,0.3682
+P0388,67,M,Renal Failure,Orthopedics,4,0,7,4,Medicare,SNF,0,2023-06-24,2023-06-28,0.3252
+P0389,75,M,Sepsis,Nephrology,2,0,8,1,Private,AMA,1,2023-08-24,2023-08-26,0.51
+P0390,24,M,Renal Failure,Cardiology,1,0,13,1,Medicaid,Home Health,0,2023-06-30,2023-07-01,0.1558
+P0391,58,F,Sepsis,Cardiology,2,2,6,0,Medicaid,Home,0,2023-10-21,2023-10-23,0.3143
+P0392,50,M,COPD,Nephrology,5,3,8,5,Medicaid,Home,1,2023-05-16,2023-05-21,0.4601
+P0393,65,M,Hip Fracture,Pulmonology,7,0,2,5,Uninsured,SNF,0,2023-10-05,2023-10-12,0.2611
+P0394,92,F,Renal Failure,Endocrinology,4,1,15,4,Private,Home,0,2023-09-19,2023-09-23,0.713
+P0395,40,F,COPD,Cardiology,3,1,9,0,Private,Home,0,2023-03-31,2023-04-03,0.1931
+P0396,77,F,Pneumonia,Nephrology,3,0,1,0,Medicaid,Home,1,2023-07-05,2023-07-08,0.1962
+P0397,66,F,Sepsis,Orthopedics,15,0,3,3,Uninsured,Home,0,2023-07-10,2023-07-25,0.1382
+P0398,73,F,Stroke,Endocrinology,2,1,10,5,Medicaid,Home Health,0,2023-05-01,2023-05-03,0.572
+P0399,68,M,COPD,Orthopedics,8,0,8,1,Private,Home Health,0,2023-10-15,2023-10-23,0.2193
+P0400,53,F,Stroke,Cardiology,5,0,14,2,Uninsured,Home Health,1,2023-06-21,2023-06-26,0.334
+P0401,48,M,Sepsis,Endocrinology,1,0,14,5,Medicaid,SNF,0,2023-10-03,2023-10-04,0.4775
+P0402,77,F,Sepsis,Endocrinology,1,1,13,5,Uninsured,Home Health,1,2023-05-27,2023-05-28,0.7773
+P0403,55,F,COPD,Nephrology,8,0,11,4,Uninsured,Home Health,1,2023-03-24,2023-04-01,0.3385
+P0404,55,F,Diabetes,Endocrinology,1,0,5,4,Uninsured,Home,0,2023-07-05,2023-07-06,0.343
+P0405,53,M,Heart Failure,Pulmonology,6,1,12,5,Medicare,Home,1,2023-02-18,2023-02-24,0.4134
+P0406,67,F,Renal Failure,Neurology,1,2,9,0,Medicare,Home,1,2023-12-02,2023-12-03,0.4085
+P0407,57,F,Sepsis,Orthopedics,4,0,14,1,Medicare,Home,0,2023-06-16,2023-06-20,0.3274
+P0408,73,F,Renal Failure,Neurology,13,1,3,5,Medicaid,SNF,0,2023-11-22,2023-12-05,0.2026
+P0409,39,M,Sepsis,Endocrinology,3,0,2,3,Private,Home,0,2023-06-05,2023-06-08,0.1394
+P0410,58,F,Heart Failure,Neurology,8,2,6,2,Uninsured,Home,0,2023-09-09,2023-09-17,0.3143
+P0411,53,M,Sepsis,Neurology,1,0,6,1,Uninsured,Home Health,0,2023-05-08,2023-05-09,0.2932
+P0412,87,F,Stroke,Orthopedics,1,0,11,1,Private,Home,0,2023-05-18,2023-05-19,0.51
+P0413,64,M,COPD,Endocrinology,1,1,8,2,Uninsured,Home,1,2023-01-26,2023-01-27,0.5025
+P0414,67,M,COPD,Cardiology,1,0,8,5,Medicare,Home,1,2023-09-10,2023-09-11,0.5
+P0415,54,F,Renal Failure,Endocrinology,3,2,6,0,Medicaid,Home,0,2023-02-06,2023-02-09,0.2315
+P0416,73,F,COPD,Pulmonology,11,0,7,0,Medicare,AMA,0,2023-07-17,2023-07-28,0.2405
+P0417,62,M,Diabetes,Orthopedics,6,0,11,1,Uninsured,Home,0,2023-06-15,2023-06-21,0.287
+P0418,95,M,Heart Failure,Nephrology,13,1,5,3,Private,Home,0,2023-12-08,2023-12-21,0.343
+P0419,73,F,Stroke,Endocrinology,1,2,10,0,Uninsured,Home Health,1,2023-01-22,2023-01-23,0.5474
+P0420,60,M,COPD,Endocrinology,7,0,8,0,Private,Home Health,0,2023-11-17,2023-11-24,0.1736
+P0421,83,M,Pneumonia,Pulmonology,3,0,9,5,Private,Home Health,1,2023-04-09,2023-04-12,0.5399
+P0422,70,M,Stroke,Endocrinology,6,0,1,3,Uninsured,SNF,0,2023-09-08,2023-09-14,0.2369
+P0423,43,F,Hip Fracture,Nephrology,3,3,10,4,Medicaid,Home,1,2023-06-01,2023-06-04,0.411
+P0424,53,M,Hip Fracture,Orthopedics,1,1,7,5,Medicaid,Home Health,0,2023-07-06,2023-07-07,0.3894
+P0425,59,M,Stroke,Pulmonology,3,1,9,1,Private,Home,0,2023-02-26,2023-03-01,0.287
+P0426,67,F,Pneumonia,Cardiology,9,0,14,0,Medicaid,Home,1,2023-01-17,2023-01-26,0.2193
+P0427,51,F,Sepsis,Cardiology,2,1,2,0,Medicaid,SNF,0,2023-02-10,2023-02-12,0.1736
+P0428,45,M,Heart Failure,Endocrinology,4,3,7,2,Medicare,Home Health,1,2023-01-21,2023-01-25,0.323
+P0429,65,M,Diabetes,Neurology,1,2,9,3,Medicaid,Home,0,2023-10-19,2023-10-20,0.505
+P0430,56,M,Stroke,Nephrology,1,1,6,5,Uninsured,SNF,1,2023-02-23,2023-02-24,0.4651
+P0431,67,F,Hip Fracture,Nephrology,1,4,8,2,Private,SNF,0,2023-07-10,2023-07-11,0.5866
+P0432,42,F,Stroke,Nephrology,1,0,9,1,Uninsured,Home Health,0,2023-05-11,2023-05-12,0.2369
+P0433,78,M,Stroke,Cardiology,6,4,10,0,Medicaid,AMA,1,2023-06-03,2023-06-09,0.6318
+P0434,57,M,Diabetes,Endocrinology,1,2,12,2,Medicaid,Home,1,2023-03-21,2023-03-22,0.4675
+P0435,58,M,Diabetes,Pulmonology,1,0,10,3,Medicaid,SNF,0,2023-09-05,2023-09-06,0.3521
+P0436,95,M,Renal Failure,Nephrology,6,2,2,4,Private,Home,0,2023-07-15,2023-07-21,0.5025
+P0437,68,F,Hip Fracture,Endocrinology,10,1,15,0,Medicaid,SNF,0,2023-01-06,2023-01-16,0.267
+P0438,26,F,Heart Failure,Endocrinology,3,0,10,1,Private,Home,0,2023-01-26,2023-01-29,0.1335
+P0439,88,F,Pneumonia,Pulmonology,2,2,3,1,Private,Home,0,2023-01-26,2023-01-28,0.4576
+P0440,57,M,Sepsis,Cardiology,2,1,12,1,Medicaid,Home,1,2023-07-22,2023-07-24,0.3941
+P0441,18,F,Diabetes,Pulmonology,1,2,6,5,Medicare,Home,0,2023-07-07,2023-07-08,0.2092
+P0442,41,M,Diabetes,Endocrinology,2,1,13,2,Medicaid,AMA,0,2023-08-15,2023-08-17,0.4061
+P0443,28,M,Diabetes,Pulmonology,5,0,12,0,Medicare,SNF,0,2023-11-14,2023-11-19,0.0998
+P0444,75,M,Sepsis,Cardiology,2,2,5,3,Uninsured,Home,1,2023-10-03,2023-10-05,0.5987
+P0445,67,M,Sepsis,Neurology,3,2,3,5,Medicare,Home,0,2023-09-27,2023-09-30,0.475
+P0446,80,M,Sepsis,Pulmonology,1,0,12,4,Private,Home,0,2023-01-05,2023-01-06,0.6365
+P0447,52,M,Hip Fracture,Cardiology,1,3,11,3,Medicaid,AMA,1,2023-12-30,2023-12-31,0.6318
+P0448,70,M,Hip Fracture,Orthopedics,10,1,3,1,Uninsured,SNF,0,2023-01-21,2023-01-31,0.1885
+P0449,74,F,Renal Failure,Orthopedics,6,0,11,2,Private,SNF,1,2023-09-14,2023-09-20,0.3318
+P0450,55,M,Heart Failure,Nephrology,1,0,14,0,Private,Home,1,2023-07-21,2023-07-22,0.3475
+P0451,75,M,Diabetes,Orthopedics,1,0,5,4,Private,Home,1,2023-12-01,2023-12-02,0.4134
+P0452,70,M,Diabetes,Pulmonology,1,2,9,1,Uninsured,AMA,0,2023-03-16,2023-03-17,0.6615
+P0453,53,F,Pneumonia,Pulmonology,1,3,12,0,Private,Home Health,1,2023-07-30,2023-07-31,0.4256
+P0454,80,M,Renal Failure,Nephrology,13,3,15,5,Private,Home,1,2023-03-09,2023-03-22,0.5744
+P0455,95,M,Sepsis,Neurology,4,0,4,1,Medicare,Home,0,2023-09-02,2023-09-06,0.4061
+P0456,69,F,Renal Failure,Nephrology,5,0,7,3,Uninsured,Home,1,2023-01-17,2023-01-22,0.3498
+P0457,62,F,Sepsis,Orthopedics,1,1,4,1,Medicare,Home,0,2023-08-13,2023-08-14,0.3058
+P0458,59,M,Hip Fracture,Orthopedics,10,1,13,0,Uninsured,SNF,0,2023-10-20,2023-10-30,0.2423
+P0459,44,M,Heart Failure,Pulmonology,3,0,12,0,Uninsured,Home,0,2023-01-26,2023-01-29,0.265
+P0460,59,M,Sepsis,Orthopedics,2,0,14,2,Uninsured,Home,1,2023-01-28,2023-01-30,0.4975
+P0461,39,M,Pneumonia,Nephrology,3,0,10,5,Medicaid,Home,0,2023-01-13,2023-01-16,0.2535
+P0462,67,M,Renal Failure,Neurology,11,3,15,3,Medicare,Home,0,2023-12-31,2024-01-11,0.4526
+P0463,60,M,Pneumonia,Nephrology,2,0,9,5,Uninsured,SNF,0,2023-11-10,2023-11-12,0.4675
+P0464,53,M,Stroke,Neurology,2,2,15,2,Medicaid,Home,1,2023-12-31,2024-01-02,0.4725
+P0465,49,F,Renal Failure,Endocrinology,4,0,3,1,Medicare,SNF,0,2023-08-23,2023-08-27,0.1151
+P0466,68,F,Renal Failure,Neurology,8,1,8,1,Medicaid,SNF,0,2023-07-29,2023-08-06,0.2279
+P0467,81,M,Diabetes,Neurology,1,1,14,1,Medicare,Home,1,2023-06-28,2023-06-29,0.5866
+P0468,72,M,COPD,Cardiology,5,2,5,2,Medicare,Home,0,2023-04-02,2023-04-07,0.3917
+P0469,51,F,COPD,Orthopedics,6,0,1,0,Private,Home,0,2023-02-04,2023-02-10,0.092
+P0470,42,M,Pneumonia,Endocrinology,3,0,14,2,Private,Home,0,2023-12-23,2023-12-26,0.246
+P0471,56,F,Pneumonia,Orthopedics,6,1,13,5,Private,Home,0,2023-05-13,2023-05-19,0.4061
+P0472,57,F,COPD,Neurology,4,1,11,3,Uninsured,Home Health,0,2023-04-30,2023-05-04,0.4725
+P0473,62,M,Heart Failure,Orthopedics,4,0,14,1,Uninsured,Home,1,2023-10-14,2023-10-18,0.4329
+P0474,61,M,Heart Failure,Nephrology,1,0,13,0,Private,Home,0,2023-01-04,2023-01-05,0.3705
+P0475,56,M,Heart Failure,Pulmonology,1,2,15,5,Uninsured,Home Health,0,2023-11-27,2023-11-28,0.7369
+P0476,48,F,Renal Failure,Pulmonology,4,3,9,2,Uninsured,Home Health,0,2023-01-29,2023-02-02,0.4037
+P0477,39,F,Heart Failure,Pulmonology,4,0,15,2,Medicare,AMA,1,2023-01-16,2023-01-20,0.3705
+P0478,52,F,Stroke,Nephrology,3,0,10,3,Medicaid,SNF,0,2023-06-07,2023-06-10,0.2709
+P0479,58,M,Pneumonia,Orthopedics,10,0,14,2,Medicaid,Home,1,2023-07-11,2023-07-21,0.2075
+P0480,49,F,Diabetes,Cardiology,2,0,8,4,Medicaid,Home,0,2023-09-26,2023-09-28,0.2709
+P0481,63,M,Pneumonia,Neurology,5,0,12,0,Uninsured,Home,0,2023-03-01,2023-03-06,0.2994
+P0482,53,F,Sepsis,Cardiology,5,1,2,2,Uninsured,Home Health,1,2023-12-04,2023-12-09,0.2315
+P0483,88,F,Diabetes,Endocrinology,1,0,9,2,Uninsured,SNF,1,2023-03-22,2023-03-23,0.589
+P0484,65,F,Pneumonia,Cardiology,15,1,2,1,Private,Home,0,2023-12-27,2024-01-11,0.0766
+P0485,53,F,Sepsis,Neurology,11,1,1,1,Medicare,Home,0,2023-02-24,2023-03-07,0.0887
+P0486,57,M,Heart Failure,Cardiology,2,0,10,4,Uninsured,SNF,1,2023-04-12,2023-04-14,0.4775
+P0487,88,F,Renal Failure,Neurology,1,2,15,5,Uninsured,Home,1,2023-11-26,2023-11-27,0.8569
+P0488,57,F,Renal Failure,Pulmonology,14,0,15,4,Private,Home Health,0,2023-12-25,2024-01-08,0.1994
+P0489,69,M,Renal Failure,Orthopedics,1,1,6,3,Uninsured,Home Health,1,2023-06-28,2023-06-29,0.4875
+P0490,29,F,Pneumonia,Orthopedics,8,2,6,4,Medicare,Home Health,0,2023-07-25,2023-08-02,0.1359
+P0491,62,M,COPD,Orthopedics,2,0,14,5,Uninsured,Home Health,1,2023-06-25,2023-06-27,0.6295
+P0492,73,M,COPD,Nephrology,5,2,12,4,Uninsured,Home,1,2023-06-16,2023-06-21,0.6792
+P0493,66,M,Stroke,Cardiology,4,1,10,3,Private,Home,0,2023-02-16,2023-02-20,0.3965
+P0494,53,F,COPD,Neurology,11,1,1,1,Medicaid,Home,0,2023-11-12,2023-11-23,0.0887
+P0495,70,F,Hip Fracture,Endocrinology,4,3,5,3,Private,AMA,0,2023-11-10,2023-11-14,0.5744
+P0496,84,M,COPD,Endocrinology,1,3,1,0,Private,Home,1,2023-01-16,2023-01-17,0.4875
+P0497,42,F,Hip Fracture,Nephrology,2,0,9,1,Medicaid,Home,0,2023-07-16,2023-07-18,0.1722
+P0498,70,F,Stroke,Pulmonology,1,3,3,1,Medicare,Home,1,2023-09-07,2023-09-08,0.411
+P0499,70,F,COPD,Nephrology,8,3,15,5,Uninsured,SNF,1,2023-08-06,2023-08-14,0.7311
+P0500,60,F,Stroke,Endocrinology,1,1,1,4,Uninsured,Home Health,1,2023-09-14,2023-09-15,0.3612
+P0501,44,M,Hip Fracture,Cardiology,19,1,12,2,Medicare,SNF,0,2023-02-10,2023-03-01,0.0711
+P0502,72,M,Sepsis,Orthopedics,3,1,10,0,Medicaid,Home,0,2023-12-09,2023-12-12,0.4037
+P0503,53,F,Sepsis,Neurology,1,0,13,0,Uninsured,Home,0,2023-10-21,2023-10-22,0.3846
+P0504,43,F,Stroke,Endocrinology,16,2,5,1,Medicare,SNF,0,2023-06-05,2023-06-21,0.0595
+P0505,78,M,COPD,Neurology,1,4,13,5,Medicare,Home,1,2023-09-16,2023-09-17,0.8494
+P0506,68,M,Sepsis,Endocrinology,1,0,14,2,Medicare,SNF,0,2023-10-30,2023-10-31,0.515
+P0507,53,M,COPD,Endocrinology,7,0,3,4,Medicare,Home,1,2023-03-16,2023-03-23,0.1722
+P0508,49,M,Renal Failure,Orthopedics,7,0,8,5,Medicaid,Home,0,2023-06-26,2023-07-03,0.2075
+P0509,45,F,Pneumonia,Cardiology,1,0,5,3,Medicaid,Home,0,2023-08-31,2023-09-01,0.1978
+P0510,41,M,COPD,Neurology,10,0,15,3,Uninsured,SNF,0,2023-12-16,2023-12-26,0.246
+P0511,78,F,Hip Fracture,Orthopedics,4,1,5,2,Private,Home,1,2023-12-02,2023-12-06,0.3521
+P0512,73,M,Renal Failure,Nephrology,6,2,10,1,Private,SNF,0,2023-06-10,2023-06-16,0.387
+P0513,47,M,Heart Failure,Orthopedics,1,0,8,2,Medicaid,SNF,1,2023-01-18,2023-01-19,0.2592
+P0514,35,M,Pneumonia,Cardiology,13,1,14,1,Medicare,SNF,0,2023-11-06,2023-11-19,0.0971
+P0515,42,F,COPD,Cardiology,5,0,8,5,Medicare,SNF,0,2023-05-22,2023-05-27,0.2405
+P0516,81,F,Hip Fracture,Endocrinology,1,0,13,0,Uninsured,Home,0,2023-05-13,2023-05-14,0.5424
+P0517,64,F,Diabetes,Neurology,2,1,2,1,Uninsured,Home,0,2023-08-15,2023-08-17,0.285
+P0518,67,M,Pneumonia,Cardiology,1,1,5,3,Medicare,Home Health,1,2023-11-24,2023-11-25,0.3799
+P0519,83,M,Sepsis,Pulmonology,6,3,10,0,Uninsured,Home,1,2023-02-05,2023-02-11,0.6083
+P0520,52,M,Heart Failure,Orthopedics,15,2,8,0,Private,Home,0,2023-01-29,2023-02-13,0.1091
+P0521,41,M,Hip Fracture,Cardiology,9,2,5,5,Medicaid,Home,1,2023-07-16,2023-07-25,0.1795
+P0522,85,M,Sepsis,Nephrology,2,0,12,2,Uninsured,Home,1,2023-04-08,2023-04-10,0.6479
+P0523,65,M,Diabetes,Orthopedics,2,2,11,2,Uninsured,Home,0,2023-08-19,2023-08-21,0.5572
+P0524,62,F,Heart Failure,Endocrinology,1,2,1,3,Medicare,Home,0,2023-09-25,2023-09-26,0.3752
+P0525,92,M,COPD,Nephrology,4,3,1,5,Medicaid,Home,1,2023-11-13,2023-11-17,0.6548
+P0526,50,M,Diabetes,Nephrology,5,0,11,0,Private,Home Health,1,2023-11-09,2023-11-14,0.1652
+P0527,64,F,Pneumonia,Cardiology,3,2,4,0,Medicaid,Home,0,2023-12-14,2023-12-17,0.2573
+P0528,56,M,Hip Fracture,Cardiology,18,1,3,2,Medicaid,Home Health,0,2023-06-21,2023-07-09,0.0557
+P0529,68,F,Stroke,Pulmonology,5,1,8,1,Medicare,Home,0,2023-11-20,2023-11-25,0.285
+P0530,68,F,COPD,Cardiology,10,0,1,1,Medicare,SNF,0,2023-05-26,2023-06-05,0.1161
+P0531,52,M,Renal Failure,Nephrology,1,0,5,4,Uninsured,Home,0,2023-11-09,2023-11-10,0.323
+P0532,35,M,COPD,Nephrology,3,4,11,2,Private,Home,0,2023-04-09,2023-04-12,0.4085
+P0533,95,F,Hip Fracture,Neurology,3,1,11,5,Medicaid,Home,1,2023-03-18,2023-03-21,0.7171
+P0534,58,F,Renal Failure,Pulmonology,1,3,1,5,Private,Home,0,2023-06-21,2023-06-22,0.4305
+P0535,87,F,COPD,Pulmonology,7,1,2,0,Medicaid,SNF,0,2023-06-16,2023-06-23,0.2729
+P0536,69,M,Diabetes,Nephrology,5,0,13,0,Private,Home,1,2023-07-31,2023-08-05,0.2911
+P0537,53,M,Renal Failure,Neurology,3,3,3,1,Uninsured,Home,0,2023-08-23,2023-08-26,0.3165
+P0538,69,F,Hip Fracture,Endocrinology,1,0,12,4,Medicare,Home,1,2023-08-27,2023-08-28,0.5075
+P0539,38,M,Diabetes,Endocrinology,4,2,11,4,Medicaid,SNF,0,2023-04-28,2023-05-02,0.3143
+P0540,75,M,Stroke,Neurology,3,4,10,3,Uninsured,Home,1,2023-05-07,2023-05-10,0.7311
+P0541,52,F,COPD,Neurology,11,1,1,0,Uninsured,SNF,0,2023-08-06,2023-08-17,0.0989
+P0542,80,M,Renal Failure,Nephrology,8,1,4,0,Medicare,SNF,0,2023-04-22,2023-04-30,0.2092
+P0543,54,F,Pneumonia,Cardiology,3,0,12,3,Medicare,AMA,0,2023-03-12,2023-03-15,0.4329
+P0544,71,M,COPD,Endocrinology,4,2,1,5,Medicare,Home,0,2023-09-29,2023-10-03,0.4403
+P0545,54,F,Diabetes,Nephrology,1,3,12,0,Private,Home Health,1,2023-07-07,2023-07-08,0.4329
+P0546,87,M,Heart Failure,Endocrinology,2,1,12,0,Medicaid,Home,1,2023-10-04,2023-10-06,0.5793
+P0547,46,F,Diabetes,Nephrology,7,0,15,2,Uninsured,Home,1,2023-06-26,2023-07-03,0.265
+P0548,40,M,Renal Failure,Neurology,3,0,12,4,Private,Home,0,2023-12-11,2023-12-14,0.2611
+P0549,74,M,Pneumonia,Cardiology,2,0,2,0,Medicaid,Home,0,2023-09-12,2023-09-14,0.2108
+P0550,92,M,Diabetes,Neurology,15,0,7,5,Medicaid,Home,0,2023-11-27,2023-12-12,0.2829
+P0551,60,F,Diabetes,Neurology,5,1,6,5,Private,Home,0,2023-09-29,2023-10-04,0.3274
+P0552,67,M,Renal Failure,Endocrinology,4,3,5,1,Private,Home,0,2023-05-28,2023-06-01,0.3566
+P0553,69,M,COPD,Neurology,12,2,5,1,Medicaid,Home Health,0,2023-12-08,2023-12-20,0.201
+P0554,72,M,COPD,Pulmonology,1,4,10,1,Uninsured,Home,1,2023-10-15,2023-10-16,0.733
+P0555,39,M,COPD,Endocrinology,2,4,9,2,Medicare,Home Health,1,2023-09-13,2023-09-15,0.4231
+P0556,23,M,Renal Failure,Endocrinology,1,4,9,4,Private,SNF,1,2023-05-29,2023-05-30,0.3566
+P0557,69,F,Renal Failure,Endocrinology,5,2,15,0,Medicaid,SNF,1,2023-01-13,2023-01-18,0.4428
+P0558,37,M,Diabetes,Orthopedics,2,0,10,5,Medicaid,SNF,1,2023-05-23,2023-05-25,0.2611
+P0559,81,M,Renal Failure,Nephrology,5,0,9,3,Medicaid,Home,0,2023-09-19,2023-09-24,0.4013
+P0560,64,F,Hip Fracture,Orthopedics,1,3,6,3,Private,Home,1,2023-06-07,2023-06-08,0.5
+P0561,66,M,Renal Failure,Nephrology,24,2,5,1,Uninsured,SNF,0,2023-10-28,2023-11-21,0.0711
+P0562,57,M,COPD,Pulmonology,1,4,9,2,Medicare,Home Health,0,2023-07-12,2023-07-13,0.5818
+P0563,84,F,Sepsis,Orthopedics,1,1,10,1,Medicaid,Home,1,2023-10-11,2023-10-12,0.5793
+P0564,62,F,Heart Failure,Endocrinology,8,0,9,5,Uninsured,Home,0,2023-03-20,2023-03-28,0.3846
+P0565,54,M,Renal Failure,Cardiology,5,3,7,1,Uninsured,Home Health,0,2023-01-15,2023-01-20,0.3498
+P0566,83,F,Sepsis,Orthopedics,25,0,12,2,Uninsured,SNF,0,2023-11-18,2023-12-13,0.148
+P0567,91,M,Hip Fracture,Neurology,6,0,5,1,Medicare,Home,0,2023-12-21,2023-12-27,0.3058
+P0568,57,M,Hip Fracture,Pulmonology,1,0,11,2,Medicare,Home,0,2023-02-09,2023-02-10,0.3296
+P0569,63,M,Pneumonia,Neurology,6,1,14,2,Private,Home,0,2023-07-05,2023-07-11,0.3682
+P0570,51,M,Hip Fracture,Pulmonology,1,1,6,3,Uninsured,Home,0,2023-02-22,2023-02-23,0.3566
+P0571,68,M,Diabetes,Neurology,4,2,9,4,Medicare,Home,0,2023-03-01,2023-03-05,0.49
+P0572,71,M,Heart Failure,Orthopedics,2,1,3,3,Private,Home,1,2023-03-02,2023-03-04,0.3941
+P0573,79,M,Diabetes,Endocrinology,1,0,2,3,Medicare,Home,0,2023-08-09,2023-08-10,0.3498
+P0574,79,F,Diabetes,Cardiology,1,1,10,0,Uninsured,Home,1,2023-02-03,2023-02-04,0.53
+P0575,48,F,Pneumonia,Neurology,1,3,3,5,Private,Home,1,2023-05-23,2023-05-24,0.3965
+P0576,38,M,Hip Fracture,Pulmonology,9,2,10,1,Medicare,Home,0,2023-01-08,2023-01-17,0.1406
+P0577,53,M,COPD,Neurology,1,2,15,1,Uninsured,Home,0,2023-08-14,2023-08-15,0.5842
+P0578,21,F,COPD,Endocrinology,19,1,9,1,Uninsured,Home,0,2023-03-05,2023-03-24,0.0411
+P0579,68,F,Hip Fracture,Nephrology,1,2,2,2,Uninsured,Home,1,2023-11-04,2023-11-05,0.4256
+P0580,67,F,Renal Failure,Pulmonology,4,0,14,3,Medicaid,Home Health,0,2023-09-01,2023-09-05,0.4207
+P0581,87,M,Renal Failure,Nephrology,1,1,11,5,Medicare,Home,1,2023-12-22,2023-12-23,0.7089
+P0582,95,F,COPD,Cardiology,2,0,4,4,Uninsured,Home,0,2023-09-13,2023-09-15,0.6388
+P0583,64,F,Sepsis,Nephrology,14,0,11,4,Uninsured,AMA,0,2023-03-17,2023-03-31,0.3775
+P0584,34,F,Pneumonia,Cardiology,1,1,11,1,Medicare,Home,1,2023-02-04,2023-02-05,0.2142
+P0585,43,F,Stroke,Neurology,5,0,10,4,Medicare,Home Health,0,2023-09-24,2023-09-29,0.2125
+P0586,23,M,Renal Failure,Pulmonology,1,1,9,2,Private,Home Health,0,2023-01-10,2023-01-11,0.1625
+P0587,94,M,Pneumonia,Orthopedics,2,3,8,3,Medicare,Home,1,2023-06-05,2023-06-07,0.7231
+P0588,60,F,Renal Failure,Orthopedics,1,2,8,0,Uninsured,SNF,0,2023-10-20,2023-10-21,0.411
+P0589,30,M,Heart Failure,Orthopedics,1,1,7,4,Private,Home Health,0,2023-02-01,2023-02-02,0.2516
+P0590,66,M,Heart Failure,Pulmonology,9,0,12,4,Medicare,Home Health,0,2023-07-14,2023-07-23,0.3407
+P0591,18,F,Stroke,Endocrinology,1,0,4,5,Private,SNF,0,2023-02-03,2023-02-04,0.1203
+P0592,83,M,Pneumonia,Endocrinology,1,1,1,3,Uninsured,SNF,0,2023-05-17,2023-05-18,0.4925
+P0593,54,F,Hip Fracture,Orthopedics,4,0,2,3,Medicare,SNF,0,2023-09-12,2023-09-16,0.1584
+P0594,41,F,COPD,Neurology,1,4,4,3,Medicare,Home Health,0,2023-05-28,2023-05-29,0.4013
+P0595,95,F,Stroke,Pulmonology,4,4,12,4,Medicare,SNF,1,2023-10-18,2023-10-22,0.8191
+P0596,77,F,Stroke,Pulmonology,2,0,14,2,Private,Home,0,2023-04-13,2023-04-15,0.5075
+P0597,43,F,Renal Failure,Nephrology,7,0,1,5,Medicaid,SNF,0,2023-08-28,2023-09-04,0.1111
+P0598,74,F,Stroke,Neurology,6,0,4,2,Uninsured,Home,1,2023-12-17,2023-12-23,0.2769
+P0599,71,M,Pneumonia,Nephrology,1,1,14,2,Medicaid,Home,0,2023-07-27,2023-07-28,0.5498
+P0600,48,M,Pneumonia,Pulmonology,1,0,14,2,Uninsured,Home,0,2023-08-05,2023-08-06,0.3917
+P0601,65,M,Heart Failure,Endocrinology,7,0,9,1,Medicare,AMA,0,2023-01-11,2023-01-18,0.3363
+P0602,74,M,Pneumonia,Endocrinology,4,3,15,3,Private,SNF,0,2023-07-23,2023-07-27,0.6726
+P0603,63,M,Pneumonia,Neurology,5,1,13,4,Private,Home,1,2023-11-04,2023-11-09,0.4452
+P0604,82,M,Hip Fracture,Endocrinology,8,2,13,5,Medicaid,Home Health,1,2023-02-24,2023-03-04,0.6106
+P0605,64,M,Stroke,Endocrinology,9,0,9,2,Medicare,Home,0,2023-12-16,2023-12-25,0.1885
+P0606,74,M,Sepsis,Pulmonology,2,2,14,2,Medicare,SNF,0,2023-01-18,2023-01-20,0.6548
+P0607,51,F,Diabetes,Endocrinology,4,0,12,2,Medicare,Home,1,2023-08-15,2023-08-19,0.2479
+P0608,35,F,Heart Failure,Orthopedics,13,3,5,0,Medicaid,Home,0,2023-03-24,2023-04-06,0.0832
+P0609,39,F,Stroke,Cardiology,1,0,13,3,Uninsured,SNF,0,2023-06-20,2023-06-21,0.3452
+P0610,37,M,Pneumonia,Pulmonology,5,1,6,3,Private,Home,1,2023-01-27,2023-02-01,0.1532
+P0611,42,M,COPD,Cardiology,2,1,6,4,Medicare,Home,1,2023-11-29,2023-12-01,0.287
+P0612,41,M,Stroke,Endocrinology,3,3,3,2,Medicaid,SNF,0,2023-05-25,2023-05-28,0.2176
+P0613,75,M,Stroke,Orthopedics,14,3,4,0,Medicare,Home Health,0,2023-11-17,2023-12-01,0.1708
+P0614,69,M,Pneumonia,Orthopedics,1,2,3,0,Uninsured,SNF,0,2023-03-18,2023-03-19,0.3799
+P0615,71,F,Pneumonia,Cardiology,6,1,15,3,Uninsured,Home,0,2023-04-08,2023-04-14,0.5572
+P0616,59,M,Sepsis,Nephrology,3,0,14,1,Medicaid,AMA,1,2023-12-13,2023-12-16,0.485
+P0617,47,M,COPD,Cardiology,1,0,10,3,Medicaid,Home,0,2023-08-23,2023-08-24,0.323
+P0618,70,F,Heart Failure,Orthopedics,1,0,12,3,Medicaid,SNF,0,2023-11-02,2023-11-03,0.5275
+P0619,80,F,Heart Failure,Endocrinology,13,1,6,4,Medicare,Home,0,2023-07-15,2023-07-28,0.2953
+P0620,71,F,Stroke,Nephrology,2,4,9,0,Medicaid,Home,1,2023-06-23,2023-06-25,0.5374
+P0621,71,F,Stroke,Pulmonology,1,0,3,3,Private,SNF,0,2023-05-25,2023-05-26,0.3143
+P0622,72,F,Sepsis,Neurology,1,3,6,5,Uninsured,Home Health,1,2023-12-03,2023-12-04,0.7389
+P0623,70,M,Diabetes,Pulmonology,1,0,12,3,Uninsured,Home,0,2023-09-11,2023-09-12,0.5523
+P0624,64,F,Renal Failure,Endocrinology,22,1,8,3,Medicare,Home Health,0,2023-03-05,2023-03-27,0.0802
+P0625,88,M,COPD,Pulmonology,6,2,10,5,Medicaid,SNF,0,2023-09-27,2023-10-03,0.6878
+P0626,79,F,Stroke,Cardiology,1,1,2,2,Medicare,Home,0,2023-03-04,2023-03-05,0.3729
+P0627,36,M,Pneumonia,Endocrinology,1,0,14,5,Uninsured,Home,0,2023-11-01,2023-11-02,0.4134
+P0628,88,F,Hip Fracture,Cardiology,5,4,6,5,Medicaid,Home,1,2023-11-26,2023-12-01,0.7047
+P0629,59,M,Pneumonia,Neurology,15,0,7,2,Medicaid,Home,0,2023-07-24,2023-08-08,0.0855
+P0630,66,F,Heart Failure,Pulmonology,1,2,5,5,Medicaid,Home,1,2023-08-10,2023-08-11,0.5572
+P0631,79,F,Hip Fracture,Nephrology,1,0,4,3,Uninsured,Home Health,0,2023-10-16,2023-10-17,0.4601
+P0632,49,M,Pneumonia,Orthopedics,8,1,7,5,Uninsured,Home,0,2023-08-26,2023-09-03,0.2749
+P0633,46,M,Renal Failure,Neurology,4,1,5,3,Uninsured,Home,0,2023-06-03,2023-06-07,0.246
+P0634,41,M,COPD,Nephrology,11,2,9,3,Private,SNF,0,2023-01-24,2023-02-04,0.1824
+P0635,45,F,Renal Failure,Nephrology,6,2,6,2,Medicare,Home Health,1,2023-12-05,2023-12-11,0.1869
+P0636,60,F,COPD,Pulmonology,9,0,7,5,Private,Home,0,2023-12-10,2023-12-19,0.2516
+P0637,53,M,COPD,Pulmonology,1,2,10,2,Medicare,Home,1,2023-07-22,2023-07-23,0.4477
+P0638,53,F,Heart Failure,Pulmonology,5,1,7,5,Uninsured,Home,0,2023-11-12,2023-11-17,0.4134
+P0639,47,M,Stroke,Endocrinology,1,0,4,0,Medicare,SNF,0,2023-01-14,2023-01-15,0.1335
+P0640,23,F,Renal Failure,Nephrology,1,0,14,5,Medicaid,Home,0,2023-03-17,2023-03-18,0.2611
+P0641,54,F,COPD,Nephrology,6,4,8,0,Uninsured,SNF,1,2023-10-19,2023-10-25,0.4158
+P0642,65,F,Heart Failure,Endocrinology,1,1,12,3,Uninsured,Home Health,0,2023-11-02,2023-11-03,0.6248
+P0643,77,F,Renal Failure,Pulmonology,6,1,7,4,Private,SNF,1,2023-11-28,2023-12-04,0.4061
+P0644,65,F,Renal Failure,Cardiology,3,3,6,3,Uninsured,Home,1,2023-04-09,2023-04-12,0.5325
+P0645,55,F,Diabetes,Neurology,11,0,10,5,Uninsured,Home,0,2023-12-31,2024-01-11,0.2497
+P0646,71,F,Stroke,Nephrology,5,0,8,1,Medicaid,Home,0,2023-12-08,2023-12-13,0.2535
+P0647,69,F,Renal Failure,Cardiology,7,3,8,2,Medicaid,Home,1,2023-01-10,2023-01-17,0.3917
+P0648,69,M,Sepsis,Endocrinology,5,0,14,4,Medicare,Home Health,1,2023-02-28,2023-03-05,0.4975
+P0649,70,M,Sepsis,Endocrinology,7,2,13,4,Private,Home Health,0,2023-09-21,2023-09-28,0.5597
+P0650,69,M,Heart Failure,Orthopedics,8,4,13,0,Medicare,Home Health,0,2023-02-22,2023-03-02,0.5025
+P0651,52,M,Pneumonia,Pulmonology,12,0,5,5,Uninsured,Home Health,0,2023-02-20,2023-03-04,0.1558
+P0652,61,F,Hip Fracture,Endocrinology,8,0,4,3,Uninsured,Home Health,1,2023-08-31,2023-09-08,0.1978
+P0653,59,M,Sepsis,Endocrinology,6,1,11,5,Medicaid,Home,0,2023-08-04,2023-08-10,0.4378
+P0654,71,M,COPD,Orthopedics,2,1,8,4,Private,Home Health,1,2023-01-06,2023-01-08,0.53
+P0655,73,F,COPD,Orthopedics,1,2,11,5,Medicaid,Home Health,1,2023-11-20,2023-11-21,0.715
+P0656,69,M,Stroke,Orthopedics,10,2,14,2,Private,Home Health,1,2023-05-24,2023-06-03,0.3752
+P0657,56,M,Diabetes,Neurology,4,1,8,5,Private,Home Health,0,2023-07-27,2023-07-31,0.3589
+P0658,45,M,Sepsis,Cardiology,1,0,12,5,Medicaid,Home,0,2023-04-20,2023-04-21,0.4158
+P0659,48,M,Hip Fracture,Nephrology,1,0,13,4,Private,Home,0,2023-08-05,2023-08-06,0.3729
+P0660,60,F,Heart Failure,Endocrinology,1,1,2,0,Medicare,Home,0,2023-01-03,2023-01-04,0.2333
+P0661,55,M,Diabetes,Endocrinology,1,1,14,5,Medicaid,SNF,1,2023-05-07,2023-05-08,0.5424
+P0662,71,M,Hip Fracture,Neurology,4,2,6,3,Medicare,Home,0,2023-07-30,2023-08-03,0.4158
+P0663,76,F,COPD,Orthopedics,1,0,11,4,Uninsured,SNF,1,2023-07-22,2023-07-23,0.6593
+P0664,71,F,Renal Failure,Nephrology,2,1,15,3,Uninsured,Home Health,1,2023-03-07,2023-03-09,0.6525
+P0665,59,M,Pneumonia,Nephrology,1,1,12,1,Private,Home Health,1,2023-07-29,2023-07-30,0.3846
+P0666,53,F,Pneumonia,Endocrinology,4,0,3,0,Private,Home,0,2023-05-31,2023-06-04,0.112
+P0667,70,F,Stroke,Cardiology,13,0,5,1,Medicaid,Home Health,0,2023-03-04,2023-03-17,0.1043
+P0668,63,M,Pneumonia,Cardiology,2,1,10,3,Private,Home Health,0,2023-11-07,2023-11-09,0.4231
+P0669,63,F,Renal Failure,Orthopedics,5,0,12,2,Medicare,Home Health,0,2023-07-29,2023-08-03,0.2994
+P0670,43,M,Diabetes,Orthopedics,2,0,11,3,Private,SNF,0,2023-12-29,2023-12-31,0.2535
+P0671,36,M,Sepsis,Neurology,5,1,2,1,Medicare,AMA,0,2023-09-01,2023-09-06,0.1598
+P0672,49,F,Pneumonia,Nephrology,13,0,1,2,Medicaid,Home,0,2023-10-24,2023-11-06,0.0497
+P0673,79,F,Hip Fracture,Orthopedics,4,1,15,0,Private,Home,1,2023-09-28,2023-10-02,0.48
+P0674,72,M,Stroke,Endocrinology,1,4,9,1,Private,Home,1,2023-02-15,2023-02-16,0.6059
+P0675,56,F,COPD,Cardiology,4,0,1,5,Medicare,Home,1,2023-03-14,2023-03-18,0.2333
+P0676,77,F,Hip Fracture,Endocrinology,2,2,2,0,Medicaid,Home,0,2023-05-02,2023-05-04,0.3252
+P0677,43,F,Pneumonia,Endocrinology,1,1,7,0,Uninsured,Home,0,2023-01-10,2023-01-11,0.2315
+P0678,60,M,Pneumonia,Pulmonology,7,1,3,2,Uninsured,Home,0,2023-09-14,2023-09-21,0.2125
+P0679,63,F,COPD,Pulmonology,3,1,15,4,Uninsured,Home,0,2023-11-14,2023-11-17,0.6548
+P0680,53,M,COPD,Cardiology,1,3,5,4,Private,Home Health,1,2023-06-29,2023-06-30,0.485
+P0681,45,F,Heart Failure,Pulmonology,6,1,5,0,Uninsured,SNF,0,2023-10-12,2023-10-18,0.168
+P0682,52,F,Stroke,Pulmonology,4,4,6,5,Private,SNF,0,2023-12-29,2024-01-02,0.4725
+P0683,58,M,Hip Fracture,Endocrinology,1,4,6,0,Medicaid,SNF,1,2023-09-01,2023-09-02,0.4061
+P0684,85,M,Heart Failure,Nephrology,1,1,12,5,Uninsured,Home Health,1,2023-11-29,2023-11-30,0.8038
+P0685,29,M,Renal Failure,Nephrology,1,4,7,4,Private,Home,0,2023-12-23,2023-12-24,0.3612
+P0686,53,F,Pneumonia,Orthopedics,2,0,1,1,Medicare,Home Health,0,2023-12-30,2024-01-01,0.1324
+P0687,72,M,Sepsis,Nephrology,1,4,6,0,Private,Home,0,2023-11-07,2023-11-08,0.5597
+P0688,89,M,Heart Failure,Pulmonology,20,1,2,2,Uninsured,Home,0,2023-10-17,2023-11-06,0.1652
+P0689,69,F,Pneumonia,Pulmonology,1,1,4,4,Private,Home,0,2023-12-21,2023-12-22,0.411
+P0690,65,M,Renal Failure,Cardiology,13,1,11,0,Private,Home,0,2023-05-21,2023-06-03,0.1519
+P0691,54,M,Hip Fracture,Neurology,7,3,4,0,Private,Home Health,0,2023-06-11,2023-06-18,0.1809
+P0692,45,M,Stroke,Pulmonology,2,3,13,0,Medicaid,AMA,1,2023-02-08,2023-02-10,0.485
+P0693,66,M,Pneumonia,Nephrology,4,0,7,0,Private,Home Health,0,2023-08-31,2023-09-04,0.2042
+P0694,75,M,Hip Fracture,Cardiology,8,1,4,0,Uninsured,Home Health,0,2023-10-24,2023-11-01,0.2351
+P0695,66,F,Heart Failure,Orthopedics,1,2,2,1,Medicare,Home Health,0,2023-06-04,2023-06-05,0.3521
+P0696,64,M,Pneumonia,Cardiology,5,1,5,3,Uninsured,Home,0,2023-04-30,2023-05-05,0.3363
+P0697,44,M,Stroke,Neurology,4,0,11,0,Uninsured,Home,0,2023-02-25,2023-03-01,0.1978
+P0698,67,F,Heart Failure,Neurology,6,1,14,1,Medicaid,SNF,1,2023-08-04,2023-08-10,0.4085
+P0699,59,F,Diabetes,Pulmonology,7,0,5,4,Uninsured,Home,0,2023-07-03,2023-07-10,0.2442
+P0700,44,M,COPD,Pulmonology,3,1,5,2,Medicare,Home,0,2023-03-16,2023-03-19,0.2092
+P0701,64,F,Heart Failure,Orthopedics,2,4,11,1,Medicare,Home,0,2023-12-22,2023-12-24,0.6106
+P0702,91,F,Hip Fracture,Neurology,4,0,5,3,Private,Home,0,2023-01-22,2023-01-26,0.4207
+P0703,62,M,Diabetes,Nephrology,1,1,4,3,Private,Home Health,0,2023-07-24,2023-07-25,0.3274
+P0704,63,F,Heart Failure,Endocrinology,1,0,9,0,Medicaid,Home,1,2023-10-27,2023-10-28,0.3122
+P0705,65,M,Diabetes,Endocrinology,1,3,12,1,Private,Home Health,1,2023-04-11,2023-04-12,0.5523
+P0706,63,M,COPD,Endocrinology,12,0,11,1,Uninsured,SNF,0,2023-06-23,2023-07-05,0.2176
+P0707,57,M,Hip Fracture,Nephrology,1,1,13,4,Uninsured,Home Health,1,2023-03-15,2023-03-16,0.5744
+P0708,73,M,Diabetes,Pulmonology,3,1,6,4,Uninsured,AMA,1,2023-01-24,2023-01-27,0.6271
+P0709,70,M,COPD,Endocrinology,1,1,5,1,Uninsured,Home,1,2023-08-29,2023-08-30,0.4502
+P0710,51,F,COPD,Neurology,2,3,13,4,Private,Home,1,2023-06-14,2023-06-16,0.6035
+P0711,43,M,Renal Failure,Orthopedics,1,1,15,4,Medicare,Home,0,2023-08-20,2023-08-21,0.4354
+P0712,59,F,Stroke,Pulmonology,1,3,10,1,Private,Home,1,2023-02-13,2023-02-14,0.4675
+P0713,48,F,Heart Failure,Orthopedics,3,0,8,3,Uninsured,Home,0,2023-06-12,2023-06-15,0.3165
+P0714,67,M,Stroke,Cardiology,1,0,11,0,Private,Home Health,1,2023-09-14,2023-09-15,0.3296
+P0715,70,F,Pneumonia,Cardiology,1,0,4,2,Medicaid,SNF,1,2023-12-16,2023-12-17,0.2932
+P0716,26,F,Diabetes,Nephrology,4,0,14,5,Private,Home,0,2023-06-27,2023-07-01,0.2227
+P0717,90,M,Heart Failure,Orthopedics,5,4,3,3,Medicaid,Home,0,2023-08-31,2023-09-05,0.6434
+P0718,52,M,Renal Failure,Nephrology,8,0,2,2,Medicaid,Home,0,2023-08-02,2023-08-10,0.0928
+P0719,32,F,Heart Failure,Endocrinology,1,3,5,5,Medicare,Home,0,2023-07-01,2023-07-02,0.3682
+P0720,73,M,Diabetes,Orthopedics,2,2,13,5,Private,Home,1,2023-01-17,2023-01-19,0.6857
+P0721,84,M,Hip Fracture,Neurology,4,1,10,4,Uninsured,AMA,1,2023-07-20,2023-07-24,0.7446
+P0722,94,M,Stroke,Pulmonology,3,0,8,5,Private,Home,1,2023-10-11,2023-10-14,0.6011
+P0723,85,F,Renal Failure,Cardiology,1,0,7,2,Medicaid,Home,0,2023-02-05,2023-02-06,0.4526
+P0724,66,F,Heart Failure,Endocrinology,3,0,14,3,Uninsured,Home,1,2023-10-02,2023-10-05,0.5622
+P0725,56,M,Diabetes,Pulmonology,10,0,14,5,Uninsured,Home,0,2023-06-08,2023-06-18,0.343
+P0726,62,F,Renal Failure,Endocrinology,1,4,8,0,Uninsured,SNF,1,2023-06-18,2023-06-19,0.5498
+P0727,41,F,Pneumonia,Endocrinology,5,3,6,5,Private,Home,0,2023-03-31,2023-04-05,0.3122
+P0728,67,M,Diabetes,Pulmonology,11,2,8,3,Medicaid,SNF,1,2023-12-24,2024-01-04,0.2689
+P0729,64,M,Sepsis,Nephrology,3,1,2,5,Medicaid,Home Health,0,2023-10-11,2023-10-14,0.3729
+P0730,94,M,Hip Fracture,Cardiology,7,1,13,2,Uninsured,Home,1,2023-09-17,2023-09-24,0.6248
+P0731,55,F,Renal Failure,Orthopedics,2,0,4,3,Medicare,Home,1,2023-03-11,2023-03-13,0.2176
+P0732,63,M,Renal Failure,Orthopedics,3,0,11,1,Uninsured,Home,0,2023-03-24,2023-03-27,0.3589
+P0733,73,M,COPD,Endocrinology,1,2,3,0,Medicare,SNF,1,2023-07-03,2023-07-04,0.3846
+P0734,43,M,Diabetes,Nephrology,1,1,4,3,Medicare,Home Health,0,2023-11-25,2023-11-26,0.2159
+P0735,51,M,Heart Failure,Neurology,1,2,13,1,Medicaid,Home,1,2023-02-16,2023-02-17,0.4551
+P0736,70,M,Stroke,Cardiology,22,0,4,5,Medicare,Home,0,2023-12-07,2023-12-29,0.0738
+P0737,61,M,Pneumonia,Endocrinology,1,1,10,1,Uninsured,Home Health,1,2023-04-20,2023-04-21,0.4329
+P0738,57,F,Hip Fracture,Endocrinology,1,1,6,0,Uninsured,Home,1,2023-12-03,2023-12-04,0.2973
+P0739,52,F,Pneumonia,Pulmonology,2,2,8,0,Medicaid,Home,1,2023-06-16,2023-06-18,0.2689
+P0740,49,F,COPD,Endocrinology,1,2,12,2,Uninsured,Home,1,2023-10-27,2023-10-28,0.5325
+P0741,45,M,Diabetes,Neurology,4,4,4,0,Medicare,Home,0,2023-05-05,2023-05-09,0.2262
+P0742,77,F,Heart Failure,Pulmonology,2,0,3,3,Medicaid,SNF,1,2023-11-03,2023-11-05,0.3775
+P0743,61,F,Sepsis,Endocrinology,5,2,9,3,Private,Home Health,1,2023-06-19,2023-06-24,0.4256
+P0744,47,M,Diabetes,Pulmonology,3,3,11,1,Medicaid,SNF,0,2023-06-14,2023-06-17,0.3521
+P0745,60,M,Renal Failure,Cardiology,15,0,3,1,Medicaid,Home,0,2023-04-15,2023-04-30,0.0568
+P0746,62,F,Pneumonia,Orthopedics,6,0,12,1,Medicaid,Home,0,2023-06-05,2023-06-11,0.2442
+P0747,24,F,Diabetes,Endocrinology,9,1,6,3,Uninsured,Home,0,2023-09-16,2023-09-25,0.0998
+P0748,42,F,COPD,Orthopedics,1,0,14,0,Private,SNF,1,2023-03-31,2023-04-01,0.265
+P0749,52,M,Sepsis,Orthopedics,4,1,6,1,Uninsured,Home,0,2023-01-03,2023-01-07,0.2769
+P0750,71,M,Hip Fracture,Orthopedics,2,1,7,5,Private,Home,1,2023-10-29,2023-10-31,0.4975
+P0751,58,F,Pneumonia,Orthopedics,13,0,13,3,Private,Home Health,0,2023-06-28,2023-07-11,0.1722
+P0752,64,M,Hip Fracture,Nephrology,1,0,7,5,Medicaid,Home,1,2023-07-05,2023-07-06,0.4085
+P0753,54,F,Sepsis,Neurology,3,1,5,1,Medicaid,Home,0,2023-11-26,2023-11-29,0.2351
+P0754,40,F,Stroke,Nephrology,4,3,9,1,Uninsured,Home,0,2023-12-21,2023-12-25,0.3143
+P0755,42,M,Stroke,Neurology,1,1,15,5,Medicare,Home,0,2023-06-26,2023-06-27,0.4651
+P0756,61,M,Sepsis,Nephrology,1,2,12,2,Medicare,AMA,0,2023-01-01,2023-01-02,0.666
+P0757,84,M,Stroke,Nephrology,1,1,3,2,Medicaid,SNF,1,2023-04-04,2023-04-05,0.428
+P0758,72,F,Renal Failure,Neurology,8,0,1,5,Medicaid,Home Health,1,2023-07-29,2023-08-06,0.2125
+P0759,46,M,COPD,Cardiology,1,0,5,0,Private,Home,0,2023-09-06,2023-09-07,0.1652
+P0760,45,F,Heart Failure,Cardiology,1,4,11,4,Medicare,Home,1,2023-01-04,2023-01-05,0.6059
+P0761,24,M,Sepsis,Orthopedics,3,0,7,2,Private,SNF,0,2023-06-11,2023-06-14,0.1171
+P0762,33,M,Hip Fracture,Nephrology,2,1,6,2,Medicare,Home,0,2023-07-25,2023-07-27,0.1571
+P0763,70,F,Sepsis,Nephrology,6,0,8,4,Uninsured,Home,0,2023-01-02,2023-01-08,0.4354
+P0764,63,F,Heart Failure,Nephrology,2,0,13,5,Private,SNF,1,2023-09-06,2023-09-08,0.5449
+P0765,60,M,Hip Fracture,Orthopedics,13,3,8,5,Medicare,SNF,1,2023-04-10,2023-04-23,0.2973
+P0766,33,F,Heart Failure,Pulmonology,3,0,14,5,Uninsured,Home,0,2023-03-01,2023-03-04,0.3917
+P0767,55,F,Diabetes,Pulmonology,6,1,2,0,Uninsured,AMA,1,2023-06-17,2023-06-23,0.2244
+P0768,51,F,Sepsis,Pulmonology,6,1,15,5,Medicare,SNF,0,2023-11-21,2023-11-27,0.4576
+P0769,82,F,Diabetes,Neurology,7,1,11,2,Uninsured,Home Health,0,2023-07-15,2023-07-22,0.4975
+P0770,75,F,Diabetes,Pulmonology,1,0,2,0,Private,SNF,0,2023-03-01,2023-03-02,0.2333
+P0771,71,F,Stroke,Neurology,6,0,10,4,Medicaid,Home Health,0,2023-06-13,2023-06-19,0.3612
+P0772,71,F,COPD,Neurology,5,1,2,3,Medicare,Home,0,2023-03-16,2023-03-21,0.3079
+P0773,71,M,Renal Failure,Pulmonology,4,0,11,5,Medicare,SNF,1,2023-12-19,2023-12-23,0.4651
+P0774,45,M,Sepsis,Nephrology,4,1,4,3,Private,SNF,0,2023-06-20,2023-06-24,0.2092
+P0775,67,M,Diabetes,Nephrology,6,3,13,1,Uninsured,SNF,1,2023-12-04,2023-12-10,0.5374
+P0776,52,F,Heart Failure,Neurology,2,1,8,2,Uninsured,Home,0,2023-05-25,2023-05-27,0.3894
+P0777,58,F,Stroke,Cardiology,1,2,10,0,Private,Home,1,2023-03-12,2023-03-13,0.3635
+P0778,52,M,Renal Failure,Endocrinology,11,0,13,5,Medicaid,SNF,1,2023-10-22,2023-11-02,0.2227
+P0779,41,M,COPD,Orthopedics,15,1,14,1,Medicare,Home,0,2023-04-02,2023-04-17,0.1141
+P0780,18,F,Pneumonia,Neurology,5,1,3,5,Uninsured,Home,1,2023-07-23,2023-07-28,0.1279
+P0781,54,F,COPD,Nephrology,6,2,13,5,Medicare,Home Health,0,2023-11-29,2023-12-05,0.5025
+P0782,82,M,Sepsis,Nephrology,5,0,2,0,Medicare,Home,0,2023-09-18,2023-09-23,0.2351
+P0783,82,F,Renal Failure,Endocrinology,5,0,10,1,Uninsured,Home,0,2023-08-11,2023-08-16,0.428
+P0784,65,F,COPD,Cardiology,1,2,14,4,Medicaid,Home,0,2023-07-21,2023-07-22,0.6835
+P0785,90,M,Pneumonia,Pulmonology,16,3,3,4,Medicaid,Home,0,2023-06-10,2023-06-26,0.3079
+P0786,73,F,Heart Failure,Pulmonology,4,1,2,4,Private,Home Health,1,2023-03-05,2023-03-09,0.3775
+P0787,48,F,Stroke,Nephrology,1,0,9,2,Uninsured,Home,0,2023-06-10,2023-06-11,0.3015
+P0788,77,M,Diabetes,Nephrology,1,2,4,0,Medicaid,Home,0,2023-04-21,2023-04-22,0.3846
+P0789,53,F,Hip Fracture,Endocrinology,1,1,2,4,Private,Home,0,2023-03-25,2023-03-26,0.2689
+P0790,55,M,Renal Failure,Cardiology,14,1,12,1,Medicaid,Home,0,2023-11-21,2023-12-05,0.1312
+P0791,57,F,COPD,Orthopedics,8,0,13,3,Uninsured,Home,0,2023-02-09,2023-02-17,0.3543
+P0792,41,M,Pneumonia,Neurology,1,1,2,2,Medicare,Home,0,2023-05-20,2023-05-21,0.1598
+P0793,69,F,Heart Failure,Cardiology,2,4,7,0,Medicare,Home,0,2023-06-06,2023-06-08,0.5325
+P0794,53,F,Pneumonia,Neurology,2,1,5,4,Private,SNF,0,2023-03-29,2023-03-31,0.2973
+P0795,77,M,Hip Fracture,Nephrology,5,2,9,4,Uninsured,Home,1,2023-01-05,2023-01-10,0.6059
+P0796,56,F,COPD,Pulmonology,2,2,1,5,Private,SNF,1,2023-11-08,2023-11-10,0.3799
+P0797,59,F,Hip Fracture,Orthopedics,3,0,7,4,Medicaid,Home,0,2023-06-06,2023-06-09,0.2953
+P0798,52,F,Hip Fracture,Cardiology,5,0,4,0,Medicaid,SNF,1,2023-05-27,2023-06-01,0.1072
+P0799,62,F,Stroke,Nephrology,3,2,8,3,Medicare,Home,0,2023-01-04,2023-01-07,0.4134
+P0800,59,M,Hip Fracture,Pulmonology,25,1,15,4,Medicare,SNF,0,2023-12-12,2024-01-06,0.1016
+P0801,68,M,COPD,Neurology,2,0,8,3,Medicaid,Home,1,2023-12-14,2023-12-16,0.4085
+P0802,75,M,Pneumonia,Endocrinology,1,0,4,0,Uninsured,Home,1,2023-11-26,2023-11-27,0.3252
+P0803,93,F,Renal Failure,Cardiology,2,1,6,2,Private,Home,1,2023-04-06,2023-04-08,0.53
+P0804,48,M,Hip Fracture,Cardiology,1,1,2,4,Medicaid,Home,0,2023-01-04,2023-01-05,0.2405
+P0805,63,M,Renal Failure,Orthopedics,2,0,15,1,Private,Home,0,2023-08-13,2023-08-15,0.387
+P0806,49,F,COPD,Endocrinology,6,0,15,5,Medicaid,Home,1,2023-03-10,2023-03-16,0.3823
+P0807,49,M,Heart Failure,Pulmonology,5,3,11,2,Medicare,Home,0,2023-12-16,2023-12-21,0.4013
+P0808,68,M,Hip Fracture,Orthopedics,3,3,14,3,Medicaid,Home,1,2023-01-11,2023-01-14,0.6365
+P0809,72,M,Diabetes,Cardiology,5,0,10,5,Medicare,Home,1,2023-09-06,2023-09-11,0.428
+P0810,77,M,Stroke,Pulmonology,4,2,3,1,Private,Home Health,0,2023-12-25,2023-12-29,0.3318
+P0811,53,M,Renal Failure,Nephrology,7,0,12,4,Medicaid,Home,0,2023-11-19,2023-11-26,0.2592
+P0812,47,F,Diabetes,Cardiology,1,0,4,1,Uninsured,Home,0,2023-01-27,2023-01-28,0.1947
+P0813,50,F,Diabetes,Pulmonology,2,1,9,3,Medicare,Home,1,2023-05-24,2023-05-26,0.3143
+P0814,69,F,Stroke,Pulmonology,1,0,1,0,Medicare,SNF,0,2023-05-27,2023-05-28,0.19
+P0815,57,M,Stroke,Pulmonology,1,1,6,2,Medicare,Home,1,2023-10-10,2023-10-11,0.2973
+P0816,83,F,Hip Fracture,Endocrinology,6,0,13,4,Private,Home,1,2023-10-27,2023-11-02,0.5075
+P0817,68,F,Pneumonia,Cardiology,4,3,11,1,Medicaid,SNF,0,2023-02-08,2023-02-12,0.48
+P0818,65,F,Sepsis,Nephrology,3,2,9,5,Medicaid,Home,1,2023-10-09,2023-10-12,0.5793
+P0819,82,M,Hip Fracture,Endocrinology,2,2,15,3,Medicare,Home,1,2023-09-15,2023-09-17,0.713
+P0820,44,F,COPD,Neurology,1,4,5,0,Medicare,Home Health,0,2023-07-23,2023-07-24,0.3363
+P0821,49,M,Pneumonia,Pulmonology,2,1,9,3,Uninsured,SNF,1,2023-01-02,2023-01-04,0.3752
+P0822,32,F,Diabetes,Neurology,5,3,13,4,Uninsured,Home,0,2023-05-13,2023-05-18,0.4134
+P0823,70,M,Sepsis,Neurology,1,0,9,1,Private,Home,1,2023-05-23,2023-05-24,0.3941
+P0824,51,F,Sepsis,Cardiology,5,0,14,1,Medicare,Home,0,2023-11-06,2023-11-11,0.2689
+P0825,44,M,Sepsis,Nephrology,1,3,5,2,Medicare,SNF,1,2023-07-02,2023-07-03,0.3475
+P0826,95,F,Sepsis,Pulmonology,1,0,11,4,Medicare,SNF,1,2023-12-01,2023-12-02,0.7171
+P0827,77,F,Diabetes,Orthopedics,1,0,10,5,Uninsured,Home,1,2023-08-11,2023-08-12,0.6365
+P0828,45,F,COPD,Orthopedics,1,0,3,1,Medicaid,SNF,0,2023-04-03,2023-04-04,0.1598
+P0829,71,M,COPD,Orthopedics,5,0,3,0,Uninsured,Home,0,2023-07-26,2023-07-31,0.2442
+P0830,63,M,COPD,Nephrology,6,0,2,3,Uninsured,Home,0,2023-11-26,2023-12-02,0.2497
+P0831,80,M,Sepsis,Pulmonology,13,1,13,0,Medicare,Home,0,2023-12-29,2024-01-11,0.287
+P0832,82,F,Diabetes,Pulmonology,3,1,8,1,Private,Home,1,2023-01-29,2023-02-01,0.4256
+P0833,56,F,Heart Failure,Cardiology,3,0,15,3,Medicaid,Home,1,2023-04-27,2023-04-30,0.4329
+P0834,56,F,Stroke,Pulmonology,2,0,15,5,Uninsured,SNF,0,2023-02-27,2023-03-01,0.5572
+P0835,65,F,Pneumonia,Endocrinology,2,1,2,2,Medicare,Home Health,0,2023-04-02,2023-04-04,0.2611
+P0836,68,F,Hip Fracture,Neurology,1,1,15,5,Private,SNF,1,2023-02-23,2023-02-24,0.6548
+P0837,82,M,Sepsis,Nephrology,8,2,14,1,Medicaid,Home,1,2023-09-02,2023-09-10,0.5325
+P0838,50,F,Pneumonia,Neurology,2,2,3,0,Private,AMA,1,2023-07-17,2023-07-19,0.2769
+P0839,54,F,Stroke,Neurology,7,0,13,5,Medicaid,Home,0,2023-10-03,2023-10-10,0.3122
+P0840,77,M,Diabetes,Orthopedics,1,2,9,4,Medicaid,SNF,1,2023-01-02,2023-01-03,0.6295
+P0841,64,F,Renal Failure,Pulmonology,12,0,6,2,Medicaid,Home,0,2023-10-10,2023-10-22,0.1192
+P0842,61,F,Diabetes,Pulmonology,8,0,3,0,Medicaid,Home,1,2023-08-06,2023-08-14,0.0971
+P0843,69,F,Pneumonia,Orthopedics,9,3,1,1,Private,Home,0,2023-01-07,2023-01-16,0.2059
+P0844,64,M,COPD,Pulmonology,3,0,9,5,Private,Home,0,2023-08-16,2023-08-19,0.4477
+P0845,59,F,Heart Failure,Neurology,6,1,1,3,Uninsured,SNF,0,2023-10-11,2023-10-17,0.2592
+P0846,71,F,Sepsis,Nephrology,1,3,5,0,Uninsured,AMA,1,2023-04-19,2023-04-20,0.6637
+P0847,53,F,COPD,Nephrology,18,1,2,5,Uninsured,Home,0,2023-07-27,2023-08-14,0.1141
+P0848,54,M,COPD,Cardiology,8,1,4,2,Medicare,Home,0,2023-06-21,2023-06-29,0.1666
+P0849,62,M,Pneumonia,Cardiology,1,0,15,2,Medicaid,SNF,0,2023-01-17,2023-01-18,0.4403
+P0850,71,M,Sepsis,Cardiology,18,1,10,3,Medicare,Home,1,2023-06-08,2023-06-26,0.1869
+P0851,88,M,Stroke,Neurology,1,2,12,2,Medicaid,SNF,1,2023-07-28,2023-07-29,0.69
+P0852,58,M,COPD,Cardiology,4,0,10,0,Private,Home,0,2023-02-10,2023-02-14,0.2387
+P0853,73,F,Diabetes,Nephrology,5,2,3,4,Private,Home,1,2023-05-29,2023-06-03,0.3846
+P0854,58,F,Stroke,Cardiology,11,2,7,1,Medicaid,AMA,0,2023-03-20,2023-03-31,0.2405
+P0855,64,M,Sepsis,Neurology,10,2,15,0,Uninsured,Home,1,2023-06-01,2023-06-11,0.4061
+P0856,63,F,Pneumonia,Endocrinology,4,0,2,1,Uninsured,Home,0,2023-05-12,2023-05-16,0.1978
+P0857,56,F,Pneumonia,Neurology,3,0,5,3,Uninsured,Home Health,0,2023-03-08,2023-03-11,0.2749
+P0858,54,M,Hip Fracture,Neurology,9,4,6,0,Uninsured,Home,1,2023-12-16,2023-12-25,0.2689
+P0859,45,M,Diabetes,Nephrology,8,0,14,0,Private,Home,0,2023-02-07,2023-02-15,0.1382
+P0860,46,F,Stroke,Orthopedics,5,0,8,5,Uninsured,Home,1,2023-02-25,2023-03-02,0.2829
+P0861,63,M,Hip Fracture,Cardiology,1,4,8,1,Uninsured,Home,1,2023-10-07,2023-10-08,0.5939
+P0862,51,F,Renal Failure,Pulmonology,5,0,1,4,Uninsured,Home,0,2023-08-09,2023-08-14,0.1839
+P0863,64,F,Heart Failure,Nephrology,2,0,3,0,Medicaid,Home,0,2023-06-02,2023-06-04,0.2075
+P0864,72,M,Stroke,Neurology,1,3,3,0,Medicare,Home Health,0,2023-06-02,2023-06-03,0.3894
+P0865,74,M,Renal Failure,Orthopedics,3,2,12,3,Private,Home Health,1,2023-01-06,2023-01-09,0.5818
+P0866,95,F,Pneumonia,Nephrology,5,1,6,5,Private,Home,0,2023-03-17,2023-03-22,0.5818
+P0867,67,M,Stroke,Endocrinology,3,0,8,1,Uninsured,SNF,0,2023-01-19,2023-01-22,0.3318
+P0868,56,M,Diabetes,Orthopedics,5,2,10,3,Medicaid,Home,0,2023-12-14,2023-12-19,0.3612
+P0869,51,F,Sepsis,Endocrinology,3,3,12,3,Uninsured,Home,1,2023-10-05,2023-10-08,0.5963
+P0870,73,F,Hip Fracture,Cardiology,13,1,6,1,Medicaid,Home,0,2023-12-04,2023-12-17,0.1506
+P0871,45,M,Pneumonia,Cardiology,8,0,11,0,Uninsured,Home,0,2023-11-16,2023-11-24,0.1455
+P0872,43,M,Renal Failure,Neurology,4,0,5,3,Medicaid,Home,0,2023-07-15,2023-07-19,0.1468
+P0873,68,F,Pneumonia,Endocrinology,17,3,7,5,Uninsured,Home,0,2023-04-25,2023-05-12,0.31
+P0874,78,M,Sepsis,Nephrology,1,2,13,3,Medicaid,Home,0,2023-01-17,2023-01-18,0.7171
+P0875,89,F,Hip Fracture,Endocrinology,1,1,7,1,Uninsured,Home,0,2023-01-27,2023-01-28,0.5818
+P0876,66,M,COPD,Nephrology,2,2,7,2,Medicaid,Home,1,2023-03-06,2023-03-08,0.4601
+P0877,43,M,Sepsis,Neurology,1,0,2,0,Medicare,Home,0,2023-10-31,2023-11-01,0.1246
+P0878,41,F,Heart Failure,Neurology,6,3,2,4,Uninsured,Home,0,2023-08-21,2023-08-27,0.2973
+P0879,71,M,Diabetes,Endocrinology,1,2,12,3,Private,SNF,1,2023-03-15,2023-03-16,0.6083
+P0880,83,F,Pneumonia,Cardiology,3,1,2,1,Private,Home,1,2023-02-09,2023-02-12,0.3208
+P0881,81,F,Diabetes,Orthopedics,1,2,7,0,Uninsured,AMA,1,2023-12-18,2023-12-19,0.666
+P0882,32,M,Stroke,Endocrinology,5,1,3,1,Private,Home,0,2023-10-18,2023-10-23,0.0832
+P0883,72,M,Hip Fracture,Orthopedics,26,1,1,1,Private,Home Health,0,2023-01-16,2023-02-11,0.0305
+P0884,71,M,COPD,Pulmonology,10,0,4,0,Private,Home,1,2023-12-21,2023-12-31,0.1359
+P0885,59,F,Pneumonia,Endocrinology,6,1,8,5,Uninsured,Home,0,2023-04-09,2023-04-15,0.4037
+P0886,80,M,COPD,Pulmonology,5,3,5,3,Medicare,SNF,0,2023-06-09,2023-06-14,0.5498
+P0887,72,M,Renal Failure,Orthopedics,10,1,12,2,Private,SNF,0,2023-08-08,2023-08-18,0.3036
+P0888,23,F,Hip Fracture,Endocrinology,11,2,8,1,Medicare,AMA,0,2023-07-29,2023-08-09,0.1072
+P0889,35,F,Hip Fracture,Orthopedics,1,0,6,3,Medicaid,Home,1,2023-12-03,2023-12-04,0.1652
+P0890,42,F,Hip Fracture,Pulmonology,7,0,6,5,Medicare,SNF,0,2023-10-18,2023-10-25,0.1532
+P0891,78,M,Stroke,Endocrinology,4,1,2,4,Private,SNF,0,2023-12-10,2023-12-14,0.3659
+P0892,49,F,Stroke,Nephrology,7,0,6,1,Medicaid,Home,0,2023-01-24,2023-01-31,0.1091
+P0893,54,M,COPD,Neurology,1,0,10,0,Private,Home,0,2023-10-22,2023-10-23,0.2729
+P0894,65,M,Renal Failure,Endocrinology,1,4,1,4,Medicare,Home,1,2023-08-29,2023-08-30,0.5075
+P0895,69,F,Sepsis,Endocrinology,1,0,2,4,Private,Home,1,2023-06-02,2023-06-03,0.3612
+P0896,47,M,Renal Failure,Nephrology,17,0,6,4,Medicare,Home,1,2023-01-06,2023-01-23,0.0624
+P0897,73,M,Stroke,Pulmonology,1,0,15,2,Medicare,Home Health,0,2023-05-13,2023-05-14,0.5225
+P0898,70,F,Pneumonia,Cardiology,14,0,6,5,Uninsured,Home,1,2023-03-12,2023-03-26,0.2193
+P0899,72,F,COPD,Neurology,10,4,7,5,Uninsured,SNF,1,2023-05-04,2023-05-14,0.6154
+P0900,71,M,Renal Failure,Endocrinology,1,2,4,0,Private,Home Health,0,2023-06-30,2023-07-01,0.343
+P0901,47,M,Diabetes,Nephrology,1,4,1,1,Medicare,SNF,0,2023-07-17,2023-07-18,0.2769
+P0902,40,M,Renal Failure,Cardiology,2,2,13,4,Private,Home Health,1,2023-08-21,2023-08-23,0.411
+P0903,66,F,COPD,Pulmonology,12,0,8,4,Medicaid,Home Health,1,2023-05-23,2023-06-04,0.2176
+P0904,55,M,COPD,Nephrology,1,3,11,0,Medicaid,Home,1,2023-02-26,2023-02-27,0.47
+P0905,79,M,Sepsis,Cardiology,3,1,6,2,Medicare,Home Health,1,2023-08-09,2023-08-12,0.4502
+P0906,63,F,COPD,Orthopedics,3,1,1,3,Private,Home,1,2023-07-15,2023-07-18,0.2829
+P0907,65,M,COPD,Neurology,1,1,9,3,Medicare,SNF,0,2023-02-26,2023-02-27,0.4925
+P0908,71,F,Pneumonia,Cardiology,11,1,4,0,Medicare,Home,0,2023-12-25,2024-01-05,0.1301
+P0909,56,M,Sepsis,Orthopedics,1,2,6,5,Private,SNF,1,2023-01-02,2023-01-03,0.5025
+P0910,66,M,COPD,Neurology,11,1,12,2,Medicaid,Home,0,2023-03-27,2023-04-07,0.287
+P0911,53,F,Heart Failure,Nephrology,3,0,3,2,Medicare,Home,0,2023-01-05,2023-01-08,0.1869
+P0912,77,M,Renal Failure,Neurology,1,3,8,0,Medicare,Home Health,0,2023-05-29,2023-05-30,0.525
+P0913,52,F,COPD,Cardiology,1,2,6,3,Uninsured,SNF,0,2023-05-12,2023-05-13,0.4725
+P0914,60,F,Sepsis,Endocrinology,3,2,5,5,Private,Home Health,0,2023-11-02,2023-11-05,0.4626
+P0915,80,F,Heart Failure,Pulmonology,19,3,11,1,Private,Home,1,2023-12-23,2024-01-11,0.265
+P0916,77,F,Hip Fracture,Pulmonology,6,0,7,5,Medicare,AMA,0,2023-12-14,2023-12-20,0.505
+P0917,94,M,COPD,Endocrinology,12,0,6,3,Uninsured,Home Health,1,2023-04-08,2023-04-20,0.3894
+P0918,59,M,Hip Fracture,Neurology,1,2,10,2,Private,Home,1,2023-12-17,2023-12-18,0.4428
+P0919,53,M,Sepsis,Neurology,4,0,8,2,Medicare,Home Health,1,2023-01-21,2023-01-25,0.2369
+P0920,63,M,Sepsis,Neurology,1,1,1,3,Private,SNF,1,2023-05-09,2023-05-10,0.3252
+P0921,54,M,COPD,Cardiology,6,0,12,1,Uninsured,SNF,1,2023-04-23,2023-04-29,0.2953
+P0922,72,F,Renal Failure,Endocrinology,1,1,7,3,Uninsured,AMA,1,2023-05-14,2023-05-15,0.6502
+P0923,53,F,Stroke,Nephrology,10,2,3,5,Medicaid,Home,0,2023-04-13,2023-04-23,0.1947
+P0924,56,M,Sepsis,Cardiology,1,3,8,4,Medicaid,Home,0,2023-08-12,2023-08-13,0.5671
+P0925,73,M,Hip Fracture,Neurology,13,2,8,2,Uninsured,Home,0,2023-08-25,2023-09-07,0.2953
+P0926,75,F,Heart Failure,Orthopedics,1,0,15,2,Medicaid,SNF,1,2023-11-14,2023-11-15,0.5866
+P0927,91,M,COPD,Orthopedics,5,1,13,4,Uninsured,Home Health,1,2023-05-19,2023-05-24,0.754
+P0928,72,M,Hip Fracture,Neurology,1,0,8,5,Private,Home Health,1,2023-10-27,2023-10-28,0.4875
+P0929,56,F,Renal Failure,Pulmonology,1,1,14,1,Private,SNF,0,2023-01-04,2023-01-05,0.4013
+P0930,43,F,Diabetes,Cardiology,1,0,15,0,Medicare,Home,1,2023-01-13,2023-01-14,0.2479
+P0931,33,M,Sepsis,Orthopedics,3,0,4,4,Private,Home Health,0,2023-12-03,2023-12-06,0.1558
+P0932,85,M,Stroke,Pulmonology,5,0,14,5,Medicaid,Home,0,2023-10-07,2023-10-12,0.6035
+P0933,48,M,Pneumonia,Neurology,3,1,7,3,Medicare,Home,0,2023-03-17,2023-03-20,0.2497
+P0934,63,F,Sepsis,Orthopedics,1,0,10,2,Medicare,SNF,0,2023-11-14,2023-11-15,0.3989
+P0935,95,F,COPD,Orthopedics,10,1,1,1,Private,Home,0,2023-04-18,2023-04-28,0.2749
+P0936,71,F,Stroke,Neurology,1,1,6,5,Private,Home,0,2023-03-13,2023-03-14,0.5025
+P0937,67,F,Stroke,Cardiology,12,1,7,3,Medicaid,SNF,0,2023-12-04,2023-12-16,0.1931
+P0938,39,M,COPD,Nephrology,1,4,6,4,Uninsured,Home,1,2023-03-23,2023-03-24,0.5374
+P0939,68,F,Renal Failure,Endocrinology,7,4,13,5,Medicaid,Home,0,2023-07-16,2023-07-23,0.6525
+P0940,66,M,Pneumonia,Cardiology,4,0,14,5,Medicare,Home,1,2023-11-20,2023-11-24,0.4875
+P0941,74,M,Renal Failure,Orthopedics,1,1,9,1,Medicaid,Home,0,2023-05-27,2023-05-28,0.4354
+P0942,55,M,Diabetes,Nephrology,1,2,13,1,Medicare,SNF,0,2023-12-09,2023-12-10,0.4354
+P0943,70,F,Heart Failure,Endocrinology,7,1,14,0,Private,Home,0,2023-11-25,2023-12-02,0.3705
+P0944,89,F,Diabetes,Pulmonology,4,1,6,2,Medicaid,Home Health,1,2023-11-17,2023-11-21,0.4502
+P0945,76,F,COPD,Neurology,1,0,4,0,Private,Home,0,2023-05-29,2023-05-30,0.31
+P0946,47,F,Stroke,Nephrology,2,3,3,2,Medicare,Home,1,2023-09-23,2023-09-25,0.2689
+P0947,57,F,Pneumonia,Neurology,3,3,5,5,Medicare,Home,1,2023-04-13,2023-04-16,0.4526
+P0948,65,M,Heart Failure,Pulmonology,1,2,6,5,Medicare,Home,1,2023-10-16,2023-10-17,0.5695
+P0949,58,M,Stroke,Neurology,6,3,15,4,Uninsured,Home Health,1,2023-01-22,2023-01-28,0.6201
+P0950,67,M,Heart Failure,Orthopedics,3,1,7,3,Private,Home Health,0,2023-04-27,2023-04-30,0.4182
+P0951,65,M,Diabetes,Neurology,4,0,11,5,Medicare,SNF,1,2023-07-13,2023-07-17,0.4207
+P0952,60,M,Stroke,Nephrology,2,0,8,0,Private,Home,0,2023-01-30,2023-02-01,0.221
+P0953,64,M,Diabetes,Orthopedics,6,3,13,4,Medicare,AMA,1,2023-05-08,2023-05-14,0.6704
+P0954,83,M,Pneumonia,Cardiology,1,0,1,2,Private,SNF,0,2023-05-30,2023-05-31,0.3252
+P0955,47,F,Pneumonia,Nephrology,1,0,9,1,Uninsured,SNF,0,2023-04-23,2023-04-24,0.265
+P0956,50,M,Sepsis,Endocrinology,7,0,11,1,Private,Home,0,2023-02-23,2023-03-02,0.1869
+P0957,52,F,Renal Failure,Endocrinology,1,3,14,4,Medicaid,Home,1,2023-03-04,2023-03-05,0.6059
+P0958,75,F,COPD,Cardiology,19,1,11,3,Medicare,Home,0,2023-05-19,2023-06-07,0.2026
+P0959,50,F,Pneumonia,Cardiology,1,1,8,0,Uninsured,Home,1,2023-04-16,2023-04-17,0.287
+P0960,54,F,COPD,Nephrology,2,0,5,0,Private,Home Health,0,2023-06-22,2023-06-24,0.1854
+P0961,69,F,Heart Failure,Endocrinology,6,1,14,3,Medicare,Home Health,0,2023-12-14,2023-12-20,0.4975
+P0962,42,M,Renal Failure,Orthopedics,4,1,9,2,Medicaid,AMA,0,2023-05-02,2023-05-06,0.2953
+P0963,72,F,Sepsis,Cardiology,33,2,5,2,Uninsured,Home,0,2023-05-18,2023-06-20,0.0502
+P0964,54,F,Heart Failure,Cardiology,1,1,14,2,Medicaid,Home,1,2023-01-05,2023-01-06,0.4725
+P0965,76,F,Diabetes,Orthopedics,1,3,5,4,Private,AMA,1,2023-05-13,2023-05-14,0.7171
+P0966,65,F,Sepsis,Orthopedics,1,1,3,4,Medicare,Home,0,2023-04-05,2023-04-06,0.411
+P0967,57,F,Diabetes,Cardiology,15,4,5,0,Private,Home,1,2023-05-01,2023-05-16,0.1312
+P0968,59,F,Pneumonia,Cardiology,3,0,2,1,Medicaid,Home,0,2023-12-15,2023-12-18,0.1519
+P0969,77,M,Sepsis,Pulmonology,1,1,6,2,Uninsured,Home Health,1,2023-05-31,2023-06-01,0.5597
+P0970,69,F,COPD,Endocrinology,1,3,15,4,Medicare,Home,1,2023-06-10,2023-06-11,0.7721
+P0971,76,F,Heart Failure,Nephrology,6,0,11,0,Medicare,AMA,0,2023-10-17,2023-10-23,0.4403
+P0972,56,F,Pneumonia,Neurology,8,1,11,4,Uninsured,Home,1,2023-10-22,2023-10-30,0.3566
+P0973,74,F,Hip Fracture,Pulmonology,3,2,2,5,Medicaid,Home,0,2023-07-29,2023-08-01,0.4576
+P0974,54,M,Pneumonia,Endocrinology,4,0,6,5,Uninsured,SNF,0,2023-08-03,2023-08-07,0.3208
+P0975,34,F,COPD,Neurology,1,3,11,4,Medicaid,SNF,0,2023-06-24,2023-06-25,0.4626
+P0976,49,F,Pneumonia,Cardiology,2,1,3,4,Uninsured,SNF,0,2023-04-03,2023-04-05,0.3015
+P0977,70,M,Sepsis,Neurology,6,1,2,1,Medicare,Home Health,1,2023-03-27,2023-04-02,0.2244
+P0978,62,F,COPD,Neurology,10,3,15,3,Private,Home,0,2023-05-04,2023-05-14,0.49
+P0979,87,F,Hip Fracture,Neurology,4,0,12,0,Medicare,SNF,1,2023-08-18,2023-08-22,0.4182
+P0980,85,M,Renal Failure,Nephrology,9,0,8,5,Medicaid,SNF,0,2023-10-29,2023-11-07,0.387
+P0981,63,F,Hip Fracture,Nephrology,5,0,8,1,Private,Home Health,1,2023-06-02,2023-06-07,0.2108
+P0982,63,M,Hip Fracture,Cardiology,4,3,10,4,Uninsured,Home,1,2023-04-02,2023-04-06,0.6083
+P0983,95,F,Diabetes,Orthopedics,3,1,10,2,Medicare,Home,1,2023-05-28,2023-05-31,0.5987
+P0984,72,M,Renal Failure,Orthopedics,1,0,15,2,Medicare,Home Health,0,2023-03-14,2023-03-15,0.515
+P0985,70,F,COPD,Cardiology,4,0,15,4,Medicaid,Home,0,2023-01-14,2023-01-18,0.5498
+P0986,91,M,Diabetes,Endocrinology,14,1,12,3,Medicaid,Home Health,1,2023-02-26,2023-03-12,0.3752
+P0987,46,M,Sepsis,Cardiology,9,4,12,5,Medicare,AMA,0,2023-04-24,2023-05-03,0.5963
+P0988,67,F,Hip Fracture,Pulmonology,3,0,11,5,Medicare,SNF,1,2023-01-20,2023-01-23,0.4601
+P0989,82,M,Hip Fracture,Pulmonology,9,1,15,5,Medicare,Home Health,0,2023-05-06,2023-05-15,0.5646
+P0990,76,M,Stroke,Pulmonology,5,0,3,3,Medicaid,SNF,0,2023-04-12,2023-04-17,0.2631
+P0991,92,F,Diabetes,Cardiology,2,1,10,1,Medicaid,Home,0,2023-11-11,2023-11-13,0.5646
+P0992,52,F,Diabetes,Nephrology,2,1,3,2,Medicaid,Home Health,0,2023-09-08,2023-09-10,0.2059
+P0993,45,F,Sepsis,Cardiology,1,4,15,2,Uninsured,AMA,1,2023-12-06,2023-12-07,0.7773
+P0994,50,F,Pneumonia,Pulmonology,3,0,2,2,Uninsured,SNF,0,2023-09-05,2023-09-08,0.1765
+P0995,42,F,Heart Failure,Endocrinology,1,0,14,3,Medicare,SNF,1,2023-12-12,2023-12-13,0.3612
+P0996,47,M,Stroke,Orthopedics,8,1,5,0,Private,Home,0,2023-11-22,2023-11-30,0.0962
+P0997,56,F,COPD,Neurology,1,1,10,4,Private,Home,0,2023-01-11,2023-01-12,0.4825
+P0998,77,M,Pneumonia,Nephrology,2,0,13,4,Medicare,SNF,1,2023-07-05,2023-07-07,0.5622
+P0999,92,M,Stroke,Nephrology,1,2,15,2,Private,Home,1,2023-05-08,2023-05-09,0.7613
+P1000,59,M,Heart Failure,Cardiology,7,1,9,3,Uninsured,Home,1,2023-01-13,2023-01-20,0.3752
