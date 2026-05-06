@@ -1,7 +1,6 @@
 # 🫀 HealthPulse — Hospital Readmission Risk Analysis
 
 **Author:** Jahnav Jayanth Reddy Kukkala  
-**Submission:** Daxwell DataRev — Data Analyst Interview  
 **Stack:** Python · SQL · HTML/JS Dashboard
 
 ---
