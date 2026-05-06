@@ -87,7 +87,7 @@ The `sql/analysis_queries.sql` file contains 10 structured queries:
 
 ```bash
 # Clone and run
-git clone https://github.com/YOUR_USERNAME/healthpulse
+git clone https://github.com/JayanthJR/healthpulse
 cd healthpulse
 python analysis.py
 
